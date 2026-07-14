@@ -1,0 +1,9 @@
+Module	Section	Sample Name	Source
+Salmon	all_sections	SRR10089413	/project/data/salmon_quants/SRR10089413/libParams/flenDist.txt
+Salmon	all_sections	SRR10089428	/project/data/salmon_quants/SRR10089428/libParams/flenDist.txt
+Salmon	all_sections	SRR10089431	/project/data/salmon_quants/SRR10089431/libParams/flenDist.txt
+Salmon	all_sections	SRR10089503	/project/data/salmon_quants/SRR10089503/libParams/flenDist.txt
+Salmon	all_sections	SRR10089583	/project/data/salmon_quants/SRR10089583/libParams/flenDist.txt
+Salmon	all_sections	SRR10089589	/project/data/salmon_quants/SRR10089589/libParams/flenDist.txt
+Salmon	all_sections	SRR10089616	/project/data/salmon_quants/SRR10089616/libParams/flenDist.txt
+Salmon	all_sections	SRR10089670	/project/data/salmon_quants/SRR10089670/libParams/flenDist.txt

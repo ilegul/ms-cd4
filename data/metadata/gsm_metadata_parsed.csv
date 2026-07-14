@@ -1,0 +1,428 @@
+gsm,title,disease state,gender,age at exam,cell type,disease subtypes,disease duration,edss
+GSM4071521,"Healthy controls, 13311d-CD14",Healthy control,M,NA,CD14+ monocytes,NA,NA,NA
+GSM4071522,"Healthy controls, 13311d-CD4",Healthy control,M,NA,CD4+ T cells,NA,NA,NA
+GSM4071523,"Healthy controls, 13311d-CD8",Healthy control,M,NA,CD8+ T cells,NA,NA,NA
+GSM4071524,"Healthy controls, 22012b-CD14",Healthy control,M,NA,CD14+ monocytes,NA,NA,NA
+GSM4071525,"Treatment naïve MS patients, 43213b-CD14",Multiple sclerosis (MS),F,34,CD14+ monocytes,RR,0,2
+GSM4071526,"Treatment naïve MS patients, 43213b-CD4",Multiple sclerosis (MS),F,34,CD4+ T cells,RR,0,2
+GSM4071527,"Treatment naïve MS patients, 43213b-CD8",Multiple sclerosis (MS),F,34,CD8+ T cells,RR,0,2
+GSM4071528,"Treatment naïve MS patients, 46913b-CD14",Multiple sclerosis (MS),F,72,CD14+ monocytes,SP,28,2.5
+GSM4071529,"Treatment naïve MS patients, 46913b-CD4",Multiple sclerosis (MS),F,72,CD4+ T cells,SP,28,2.5
+GSM4071530,"Treatment naïve MS patients, 46913b-CD8",Multiple sclerosis (MS),F,72,CD8+ T cells,SP,28,2.5
+GSM4071531,"Treatment naïve MS patients, 47313a-CD14",Multiple sclerosis (MS),M,33,CD14+ monocytes,RIS,3,2
+GSM4071532,"Treatment naïve MS patients, 47313a-CD4",Multiple sclerosis (MS),M,33,CD4+ T cells,RIS,3,2
+GSM4071533,"Treatment naïve MS patients, 47313a-CD8",Multiple sclerosis (MS),M,33,CD8+ T cells,RIS,3,2
+GSM4071534,"Treatment naïve MS patients, 47413a-CD14",Multiple sclerosis (MS),M,44,CD14+ monocytes,PP,2,4
+GSM4071535,"Treatment naïve MS patients, 47413a-CD4",Multiple sclerosis (MS),M,44,CD4+ T cells,PP,2,4
+GSM4071536,"Treatment naïve MS patients, 47413a-CD8",Multiple sclerosis (MS),M,44,CD8+ T cells,PP,2,4
+GSM4071537,"Treatment naïve MS patients, 47513a-CD14",Multiple sclerosis (MS),F,63,CD14+ monocytes,PP,2,2
+GSM4071538,"Treatment naïve MS patients, 47513a-CD4",Multiple sclerosis (MS),F,63,CD4+ T cells,PP,2,2
+GSM4071539,"Treatment naïve MS patients, 47513a-CD8",Multiple sclerosis (MS),F,63,CD8+ T cells,PP,2,2
+GSM4071540,"Treatment naïve MS patients, 47713b-CD14",Multiple sclerosis (MS),M,24,CD14+ monocytes,RR,0,2.5
+GSM4071541,"Treatment naïve MS patients, 47713b-CD4",Multiple sclerosis (MS),M,24,CD4+ T cells,RR,0,2.5
+GSM4071542,"Treatment naïve MS patients, 47713b-CD8",Multiple sclerosis (MS),M,24,CD8+ T cells,RR,0,2.5
+GSM4071543,"Treatment naïve MS patients, 48413b-CD14",Multiple sclerosis (MS),F,47,CD14+ monocytes,CIS,4,0
+GSM4071544,"Treatment naïve MS patients, 48413b-CD4",Multiple sclerosis (MS),F,47,CD4+ T cells,CIS,4,0
+GSM4071545,"Treatment naïve MS patients, 48413b-CD8",Multiple sclerosis (MS),F,47,CD8+ T cells,CIS,4,0
+GSM4071546,"Treatment naïve MS patients, 48813b-CD14",Multiple sclerosis (MS),F,41,CD14+ monocytes,RR,1,2.5
+GSM4071547,"Treatment naïve MS patients, 48813b-CD4",Multiple sclerosis (MS),F,41,CD4+ T cells,RR,1,2.5
+GSM4071548,"Treatment naïve MS patients, 48813b-CD8",Multiple sclerosis (MS),F,41,CD8+ T cells,RR,1,2.5
+GSM4071549,"Treatment naïve MS patients, 48913b-CD14",Multiple sclerosis (MS),F,21,CD14+ monocytes,CIS,0,1.5
+GSM4071550,"Treatment naïve MS patients, 48913b-CD4",Multiple sclerosis (MS),F,21,CD4+ T cells,CIS,0,1.5
+GSM4071551,"Treatment naïve MS patients, 48913b-CD8",Multiple sclerosis (MS),F,21,CD8+ T cells,CIS,0,1.5
+GSM4071552,"Treatment naïve MS patients, 49013a-CD14",Multiple sclerosis (MS),F,31,CD14+ monocytes,RR,1,1
+GSM4071553,"Treatment naïve MS patients, 49013a-CD4",Multiple sclerosis (MS),F,31,CD4+ T cells,RR,1,1
+GSM4071554,"Treatment naïve MS patients, 49013a-CD8",Multiple sclerosis (MS),F,31,CD8+ T cells,RR,1,1
+GSM4071555,"Treatment naïve MS patients, 49313a-CD14",Multiple sclerosis (MS),F,21,CD14+ monocytes,RR,0,0
+GSM4071556,"Treatment naïve MS patients, 49713a-CD14",Multiple sclerosis (MS),F,23,CD14+ monocytes,CIS,0,1.5
+GSM4071557,"Treatment naïve MS patients, 49713a-CD4",Multiple sclerosis (MS),F,23,CD4+ T cells,CIS,0,1.5
+GSM4071558,"Treatment naïve MS patients, 49713a-CD8",Multiple sclerosis (MS),F,23,CD8+ T cells,CIS,0,1.5
+GSM4071559,"Treatment naïve MS patients, 50913b-CD14",Multiple sclerosis (MS),F,51,CD14+ monocytes,CIS,0,3
+GSM4071560,"Treatment naïve MS patients, 50913b-CD4",Multiple sclerosis (MS),F,51,CD4+ T cells,CIS,0,3
+GSM4071561,"Treatment naïve MS patients, 50913b-CD8",Multiple sclerosis (MS),F,51,CD8+ T cells,CIS,0,3
+GSM4071562,"Treatment naïve MS patients, 51013a-CD14",Multiple sclerosis (MS),M,35,CD14+ monocytes,RR,10,1.5
+GSM4071563,"Treatment naïve MS patients, 51013a-CD4",Multiple sclerosis (MS),M,35,CD4+ T cells,RR,10,1.5
+GSM4071564,"Treatment naïve MS patients, 51013a-CD8",Multiple sclerosis (MS),M,35,CD8+ T cells,RR,10,1.5
+GSM4071565,"Treatment naïve MS patients, 51113a-CD14",Multiple sclerosis (MS),F,36,CD14+ monocytes,CIS,0,2
+GSM4071566,"Treatment naïve MS patients, 51113a-CD4",Multiple sclerosis (MS),F,36,CD4+ T cells,CIS,0,2
+GSM4071567,"Treatment naïve MS patients, 51113a-CD8",Multiple sclerosis (MS),F,36,CD8+ T cells,CIS,0,2
+GSM4071568,"Treatment naïve MS patients, 51314a-CD14",Multiple sclerosis (MS),F,37,CD14+ monocytes,CIS,0,1.5
+GSM4071569,"Treatment naïve MS patients, 51314a-CD4",Multiple sclerosis (MS),F,37,CD4+ T cells,CIS,0,1.5
+GSM4071570,"Treatment naïve MS patients, 51314a-CD8",Multiple sclerosis (MS),F,37,CD8+ T cells,CIS,0,1.5
+GSM4071571,"Treatment naïve MS patients, 51814a-CD14",Multiple sclerosis (MS),F,23,CD14+ monocytes,RR,1,3.5
+GSM4071572,"Treatment naïve MS patients, 51814a-CD4",Multiple sclerosis (MS),F,23,CD4+ T cells,RR,1,3.5
+GSM4071573,"Treatment naïve MS patients, 51814a-CD8",Multiple sclerosis (MS),F,23,CD8+ T cells,RR,1,3.5
+GSM4071574,"Treatment naïve MS patients, 51914a-CD14",Multiple sclerosis (MS),F,36,CD14+ monocytes,RR,0,1.5
+GSM4071575,"Treatment naïve MS patients, 51914a-CD4",Multiple sclerosis (MS),F,36,CD4+ T cells,RR,0,1.5
+GSM4071576,"Treatment naïve MS patients, 51914a-CD8",Multiple sclerosis (MS),F,36,CD8+ T cells,RR,0,1.5
+GSM4071577,"Treatment naïve MS patients, 52214a-CD14rep",Multiple sclerosis (MS),F,55,CD14+ monocytes,RR,10,4.5
+GSM4071578,"Treatment naïve MS patients, 52214a-CD4rep",Multiple sclerosis (MS),F,55,CD4+ T cells,RR,10,4.5
+GSM4071579,"Treatment naïve MS patients, 52214a-CD8",Multiple sclerosis (MS),F,55,CD8+ T cells,RR,10,4.5
+GSM4071580,"Treatment naïve MS patients, 52314a-CD14",Multiple sclerosis (MS),F,37,CD14+ monocytes,RR,2,4.5
+GSM4071581,"Treatment naïve MS patients, 52314a-CD4",Multiple sclerosis (MS),F,37,CD4+ T cells,RR,2,4.5
+GSM4071582,"Treatment naïve MS patients, 52314a-CD8",Multiple sclerosis (MS),F,37,CD8+ T cells,RR,2,4.5
+GSM4071583,"Treatment naïve MS patients, 52814a-CD14",Multiple sclerosis (MS),F,39,CD14+ monocytes,RR,6,1.5
+GSM4071584,"Treatment naïve MS patients, 52814a-CD4",Multiple sclerosis (MS),F,39,CD4+ T cells,RR,6,1.5
+GSM4071585,"Treatment naïve MS patients, 52814a-CD8",Multiple sclerosis (MS),F,39,CD8+ T cells,RR,6,1.5
+GSM4071586,"Treatment naïve MS patients, 53114b-CD14",Multiple sclerosis (MS),M,26,CD14+ monocytes,RR,7,1
+GSM4071587,"Treatment naïve MS patients, 53114b-CD4",Multiple sclerosis (MS),M,26,CD4+ T cells,RR,7,1
+GSM4071588,"Treatment naïve MS patients, 53114b-CD8",Multiple sclerosis (MS),M,26,CD8+ T cells,RR,7,1
+GSM4071589,"Treatment naïve MS patients, 55914a-CD14rep",Multiple sclerosis (MS),F,40,CD14+ monocytes,RR,0,4.5
+GSM4071590,"Treatment naïve MS patients, 55914a-CD4",Multiple sclerosis (MS),F,40,CD4+ T cells,RR,0,4.5
+GSM4071591,"Treatment naïve MS patients, 55914a-CD8",Multiple sclerosis (MS),F,40,CD8+ T cells,RR,0,4.5
+GSM4071592,"Treatment naïve MS patients, 56014a-CD14",Multiple sclerosis (MS),F,30,CD14+ monocytes,CIS,0,3
+GSM4071593,"Treatment naïve MS patients, 56014a-CD4",Multiple sclerosis (MS),F,30,CD4+ T cells,CIS,0,3
+GSM4071594,"Treatment naïve MS patients, 56014a-CD8",Multiple sclerosis (MS),F,30,CD8+ T cells,CIS,0,3
+GSM4071595,"Treatment naïve MS patients, 56314a-CD14",Multiple sclerosis (MS),M,38,CD14+ monocytes,RR,3,3
+GSM4071596,"Treatment naïve MS patients, 56314a-CD4",Multiple sclerosis (MS),M,38,CD4+ T cells,RR,3,3
+GSM4071597,"Treatment naïve MS patients, 56314a-CD8",Multiple sclerosis (MS),M,38,CD8+ T cells,RR,3,3
+GSM4071598,"Treatment naïve MS patients, 56414a-CD14",Multiple sclerosis (MS),F,31,CD14+ monocytes,RR,3,3.5
+GSM4071599,"Treatment naïve MS patients, 56414a-CD4",Multiple sclerosis (MS),F,31,CD4+ T cells,RR,3,3.5
+GSM4071600,"Treatment naïve MS patients, 56414a-CD8",Multiple sclerosis (MS),F,31,CD8+ T cells,RR,3,3.5
+GSM4071601,"Treatment naïve MS patients, 56514a-CD14",Multiple sclerosis (MS),F,29,CD14+ monocytes,RR,2,6
+GSM4071602,"Treatment naïve MS patients, 56514a-CD4",Multiple sclerosis (MS),F,29,CD4+ T cells,RR,2,6
+GSM4071603,"Treatment naïve MS patients, 56514a-CD8",Multiple sclerosis (MS),F,29,CD8+ T cells,RR,2,6
+GSM4071604,"Treatment naïve MS patients, 56914a-CD14",Multiple sclerosis (MS),F,38,CD14+ monocytes,CIS,0,3.5
+GSM4071605,"Treatment naïve MS patients, 56914a-CD4",Multiple sclerosis (MS),F,38,CD4+ T cells,CIS,0,3.5
+GSM4071606,"Treatment naïve MS patients, 56914a-CD8",Multiple sclerosis (MS),F,38,CD8+ T cells,CIS,0,3.5
+GSM4071607,"Treatment naïve MS patients, 57114a-CD14",Multiple sclerosis (MS),F,40,CD14+ monocytes,RR,1,2
+GSM4071608,"Treatment naïve MS patients, 57114a-CD4",Multiple sclerosis (MS),F,40,CD4+ T cells,RR,1,2
+GSM4071609,"Treatment naïve MS patients, 57114a-CD8",Multiple sclerosis (MS),F,40,CD8+ T cells,RR,1,2
+GSM4071610,"Treatment naïve MS patients, 57314a-CD14",Multiple sclerosis (MS),M,48,CD14+ monocytes,CIS,1,1
+GSM4071611,"Treatment naïve MS patients, 57314a-CD4",Multiple sclerosis (MS),M,48,CD4+ T cells,CIS,1,1
+GSM4071612,"Treatment naïve MS patients, 57314a-CD8",Multiple sclerosis (MS),M,48,CD8+ T cells,CIS,1,1
+GSM4071613,"Treatment naïve MS patients, 57414a-CD14",Multiple sclerosis (MS),F,31,CD14+ monocytes,CIS,0,2.5
+GSM4071614,"Treatment naïve MS patients, 57414a-CD4",Multiple sclerosis (MS),F,31,CD4+ T cells,CIS,0,2.5
+GSM4071615,"Treatment naïve MS patients, 57414a-CD8",Multiple sclerosis (MS),F,31,CD8+ T cells,CIS,0,2.5
+GSM4071616,"Treatment naïve MS patients, 57714a-CD14",Multiple sclerosis (MS),F,31,CD14+ monocytes,RR,0,3.5
+GSM4071617,"Treatment naïve MS patients, 57714a-CD4",Multiple sclerosis (MS),F,31,CD4+ T cells,RR,0,3.5
+GSM4071618,"Treatment naïve MS patients, 57714a-CD8",Multiple sclerosis (MS),F,31,CD8+ T cells,RR,0,3.5
+GSM4071619,"Treatment naïve MS patients, 57814a-CD14",Multiple sclerosis (MS),M,59,CD14+ monocytes,PP,4,2.5
+GSM4071620,"Treatment naïve MS patients, 57814a-CD4",Multiple sclerosis (MS),M,59,CD4+ T cells,PP,4,2.5
+GSM4071621,"Treatment naïve MS patients, 57814a-CD8",Multiple sclerosis (MS),M,59,CD8+ T cells,PP,4,2.5
+GSM4071622,"Treatment naïve MS patients, 57915a-CD14",Multiple sclerosis (MS),F,44,CD14+ monocytes,RR,7,1.5
+GSM4071623,"Treatment naïve MS patients, 57915a-CD4",Multiple sclerosis (MS),F,44,CD4+ T cells,RR,7,1.5
+GSM4071624,"Treatment naïve MS patients, 57915a-CD8",Multiple sclerosis (MS),F,44,CD8+ T cells,RR,7,1.5
+GSM4071625,"Treatment naïve MS patients, 58015a-CD14",Multiple sclerosis (MS),M,54,CD14+ monocytes,PP,13,3.5
+GSM4071626,"Treatment naïve MS patients, 58015a-CD4",Multiple sclerosis (MS),M,54,CD4+ T cells,PP,13,3.5
+GSM4071627,"Treatment naïve MS patients, 58015a-CD8",Multiple sclerosis (MS),M,54,CD8+ T cells,PP,13,3.5
+GSM4071628,"Treatment naïve MS patients, 58415a-CD14",Multiple sclerosis (MS),F,47,CD14+ monocytes,RR,0,3
+GSM4071629,"Treatment naïve MS patients, 58415a-CD4",Multiple sclerosis (MS),F,47,CD4+ T cells,RR,0,3
+GSM4071630,"Treatment naïve MS patients, 58415a-CD8",Multiple sclerosis (MS),F,47,CD8+ T cells,RR,0,3
+GSM4071631,"Treatment naïve MS patients, 58515a-CD14",Multiple sclerosis (MS),F,39,CD14+ monocytes,RR,1,2
+GSM4071632,"Treatment naïve MS patients, 58515a-CD4",Multiple sclerosis (MS),F,39,CD4+ T cells,RR,1,2
+GSM4071633,"Treatment naïve MS patients, 58515a-CD8",Multiple sclerosis (MS),F,39,CD8+ T cells,RR,1,2
+GSM4071634,"Treatment naïve MS patients, 58915a-CD14",Multiple sclerosis (MS),M,28,CD14+ monocytes,CIS,0,1.5
+GSM4071635,"Treatment naïve MS patients, 58915a-CD4",Multiple sclerosis (MS),M,28,CD4+ T cells,CIS,0,1.5
+GSM4071636,"Treatment naïve MS patients, 58915a-CD8",Multiple sclerosis (MS),M,28,CD8+ T cells,CIS,0,1.5
+GSM4071637,"Treatment naïve MS patients, 59015a-CD14",Multiple sclerosis (MS),F,47,CD14+ monocytes,CIS,1,1
+GSM4071638,"Treatment naïve MS patients, 59015a-CD4",Multiple sclerosis (MS),F,47,CD4+ T cells,CIS,1,1
+GSM4071639,"Treatment naïve MS patients, 59015a-CD8",Multiple sclerosis (MS),F,47,CD8+ T cells,CIS,1,1
+GSM4071640,"Treatment naïve MS patients, 59215a-CD14",Multiple sclerosis (MS),F,43,CD14+ monocytes,RR,0,2
+GSM4071641,"Treatment naïve MS patients, 59215a-CD4",Multiple sclerosis (MS),F,43,CD4+ T cells,RR,0,2
+GSM4071642,"Treatment naïve MS patients, 59215a-CD8",Multiple sclerosis (MS),F,43,CD8+ T cells,RR,0,2
+GSM4071643,"Treatment naïve MS patients, 59915a-CD14",Multiple sclerosis (MS),M,40,CD14+ monocytes,PP,3,6
+GSM4071644,"Treatment naïve MS patients, 59915a-CD4",Multiple sclerosis (MS),M,40,CD4+ T cells,PP,3,6
+GSM4071645,"Treatment naïve MS patients, 59915a-CD8",Multiple sclerosis (MS),M,40,CD8+ T cells,PP,3,6
+GSM4071646,"Treatment naïve MS patients, 60615a-CD14",Multiple sclerosis (MS),M,41,CD14+ monocytes,RR,4,NA
+GSM4071647,"Treatment naïve MS patients, 60615a-CD4",Multiple sclerosis (MS),M,41,CD4+ T cells,RR,4,NA
+GSM4071648,"Treatment naïve MS patients, 60615a-CD8",Multiple sclerosis (MS),M,41,CD8+ T cells,RR,4,NA
+GSM4071649,"Treatment naïve MS patients, 60815a-CD14",Multiple sclerosis (MS),F,24,CD14+ monocytes,CIS,0,0
+GSM4071650,"Treatment naïve MS patients, 60815a-CD4",Multiple sclerosis (MS),F,24,CD4+ T cells,CIS,0,0
+GSM4071651,"Treatment naïve MS patients, 60815a-CD8",Multiple sclerosis (MS),F,24,CD8+ T cells,CIS,0,0
+GSM4071652,"Treatment naïve MS patients, 61215a-CD14",Multiple sclerosis (MS),F,26,CD14+ monocytes,CIS,1,2
+GSM4071653,"Treatment naïve MS patients, 61215a-CD4",Multiple sclerosis (MS),F,26,CD4+ T cells,CIS,1,2
+GSM4071654,"Treatment naïve MS patients, 61215a-CD8",Multiple sclerosis (MS),F,26,CD8+ T cells,CIS,1,2
+GSM4071655,"Treatment naïve MS patients, 61415a-CD14",Multiple sclerosis (MS),M,33,CD14+ monocytes,RR,0,3
+GSM4071656,"Treatment naïve MS patients, 61415a-CD4",Multiple sclerosis (MS),M,33,CD4+ T cells,RR,0,3
+GSM4071657,"Treatment naïve MS patients, 61415a-CD8",Multiple sclerosis (MS),M,33,CD8+ T cells,RR,0,3
+GSM4071658,"Treatment naïve MS patients, 61515a-CD14",Multiple sclerosis (MS),F,37,CD14+ monocytes,CIS,1,1
+GSM4071659,"Treatment naïve MS patients, 61515a-CD4",Multiple sclerosis (MS),F,37,CD4+ T cells,CIS,1,1
+GSM4071660,"Treatment naïve MS patients, 61515a-CD8",Multiple sclerosis (MS),F,37,CD8+ T cells,CIS,1,1
+GSM4071661,"Treatment naïve MS patients, 62115a-CD14",Multiple sclerosis (MS),F,43,CD14+ monocytes,CIS,0,2
+GSM4071662,"Treatment naïve MS patients, 62115a-CD4",Multiple sclerosis (MS),F,43,CD4+ T cells,CIS,0,2
+GSM4071663,"Treatment naïve MS patients, 62115a-CD8",Multiple sclerosis (MS),F,43,CD8+ T cells,CIS,0,2
+GSM4071664,"Treatment naïve MS patients, 62315a-CD14",Multiple sclerosis (MS),F,34,CD14+ monocytes,CIS,0,1
+GSM4071665,"Treatment naïve MS patients, 62315a-CD4",Multiple sclerosis (MS),F,34,CD4+ T cells,CIS,0,1
+GSM4071666,"Treatment naïve MS patients, 62315a-CD8",Multiple sclerosis (MS),F,34,CD8+ T cells,CIS,0,1
+GSM4071667,"Treatment naïve MS patients, 63315a-CD14",Multiple sclerosis (MS),M,25,CD14+ monocytes,RR,0,3
+GSM4071668,"Treatment naïve MS patients, 63315a-CD4",Multiple sclerosis (MS),M,25,CD4+ T cells,RR,0,3
+GSM4071669,"Treatment naïve MS patients, 63315a-CD8",Multiple sclerosis (MS),M,25,CD8+ T cells,RR,0,3
+GSM4071670,"Treatment naïve MS patients, 63815a-CD14",Multiple sclerosis (MS),F,55,CD14+ monocytes,PP,9,5
+GSM4071671,"Treatment naïve MS patients, 63815a-CD4",Multiple sclerosis (MS),F,55,CD4+ T cells,PP,9,5
+GSM4071672,"Treatment naïve MS patients, 63815a-CD8",Multiple sclerosis (MS),F,55,CD8+ T cells,PP,9,5
+GSM4071673,"Treatment naïve MS patients, 64215a-CD14",Multiple sclerosis (MS),M,36,CD14+ monocytes,CIS,0,2
+GSM4071674,"Treatment naïve MS patients, 64215a-CD4",Multiple sclerosis (MS),M,36,CD4+ T cells,CIS,0,2
+GSM4071675,"Treatment naïve MS patients, 64215a-CD8",Multiple sclerosis (MS),M,36,CD8+ T cells,CIS,0,2
+GSM4071676,"Treatment naïve MS patients, 65015a-CD14",Multiple sclerosis (MS),M,44,CD14+ monocytes,RR,7,6
+GSM4071677,"Treatment naïve MS patients, 65015a-CD4",Multiple sclerosis (MS),M,44,CD4+ T cells,RR,7,6
+GSM4071678,"Treatment naïve MS patients, 65015a-CD8",Multiple sclerosis (MS),M,44,CD8+ T cells,RR,7,6
+GSM4071679,"Treatment naïve MS patients, 65415a-CD14",Multiple sclerosis (MS),M,32,CD14+ monocytes,RR,0,5
+GSM4071680,"Treatment naïve MS patients, 65415a-CD4",Multiple sclerosis (MS),M,32,CD4+ T cells,RR,0,5
+GSM4071681,"Treatment naïve MS patients, 65415a-CD8",Multiple sclerosis (MS),M,32,CD8+ T cells,RR,0,5
+GSM4071682,"Treatment naïve MS patients, 65615a-CD14",Multiple sclerosis (MS),M,30,CD14+ monocytes,RR,0,1.5
+GSM4071683,"Treatment naïve MS patients, 65615a-CD4",Multiple sclerosis (MS),M,30,CD4+ T cells,RR,0,1.5
+GSM4071684,"Treatment naïve MS patients, 65615a-CD8",Multiple sclerosis (MS),M,30,CD8+ T cells,RR,0,1.5
+GSM4071685,"Treatment naïve MS patients, 65715a-CD14",Multiple sclerosis (MS),M,23,CD14+ monocytes,RR,4,1.5
+GSM4071686,"Treatment naïve MS patients, 65715a-CD4",Multiple sclerosis (MS),M,23,CD4+ T cells,RR,4,1.5
+GSM4071687,"Treatment naïve MS patients, 65715a-CD8",Multiple sclerosis (MS),M,23,CD8+ T cells,RR,4,1.5
+GSM4071688,"Treatment naïve MS patients, 65815a-CD14",Multiple sclerosis (MS),F,24,CD14+ monocytes,CIS,0,2
+GSM4071689,"Treatment naïve MS patients, 65815a-CD4",Multiple sclerosis (MS),F,24,CD4+ T cells,CIS,0,2
+GSM4071690,"Treatment naïve MS patients, 65815a-CD8",Multiple sclerosis (MS),F,24,CD8+ T cells,CIS,0,2
+GSM4071691,"Treatment naïve MS patients, 66215a-CD14",Multiple sclerosis (MS),F,41,CD14+ monocytes,RR,0,5.5
+GSM4071692,"Treatment naïve MS patients, 66215a-CD4",Multiple sclerosis (MS),F,41,CD4+ T cells,RR,0,5.5
+GSM4071693,"Treatment naïve MS patients, 66215a-CD8",Multiple sclerosis (MS),F,41,CD8+ T cells,RR,0,5.5
+GSM4071694,"Treatment naïve MS patients, 66415a-CD14",Multiple sclerosis (MS),F,32,CD14+ monocytes,CIS,12,1.5
+GSM4071695,"Treatment naïve MS patients, 66415a-CD4",Multiple sclerosis (MS),F,32,CD4+ T cells,CIS,12,1.5
+GSM4071696,"Treatment naïve MS patients, 66415a-CD8",Multiple sclerosis (MS),F,32,CD8+ T cells,CIS,12,1.5
+GSM4071697,"Treatment naïve MS patients, 66915a-CD14",Multiple sclerosis (MS),M,32,CD14+ monocytes,RR,1,1
+GSM4071698,"Treatment naïve MS patients, 66915a-CD4",Multiple sclerosis (MS),M,32,CD4+ T cells,RR,1,1
+GSM4071699,"Treatment naïve MS patients, 66915a-CD8",Multiple sclerosis (MS),M,32,CD8+ T cells,RR,1,1
+GSM4071700,"Treatment naïve MS patients, 67415a-CD14",Multiple sclerosis (MS),M,66,CD14+ monocytes,PP,11,6.5
+GSM4071701,"Treatment naïve MS patients, 67415a-CD4",Multiple sclerosis (MS),M,66,CD4+ T cells,PP,11,6.5
+GSM4071702,"Treatment naïve MS patients, 67415a-CD8",Multiple sclerosis (MS),M,66,CD8+ T cells,PP,11,6.5
+GSM4071703,"Treatment naïve MS patients, 67515a-CD14",Multiple sclerosis (MS),F,37,CD14+ monocytes,CIS,1,4
+GSM4071704,"Treatment naïve MS patients, 67515a-CD4",Multiple sclerosis (MS),F,37,CD4+ T cells,CIS,1,4
+GSM4071705,"Treatment naïve MS patients, 67515a-CD8",Multiple sclerosis (MS),F,37,CD8+ T cells,CIS,1,4
+GSM4071706,"Treatment naïve MS patients, 67815a-CD14",Multiple sclerosis (MS),M,36,CD14+ monocytes,RR,3,1.5
+GSM4071707,"Treatment naïve MS patients, 67815a-CD4",Multiple sclerosis (MS),M,36,CD4+ T cells,RR,3,1.5
+GSM4071708,"Treatment naïve MS patients, 67815a-CD8",Multiple sclerosis (MS),M,36,CD8+ T cells,RR,3,1.5
+GSM4071709,"Treatment naïve MS patients, 68116a-CD14",Multiple sclerosis (MS),F,38,CD14+ monocytes,RR,1,1.5
+GSM4071710,"Treatment naïve MS patients, 68116a-CD4",Multiple sclerosis (MS),F,38,CD4+ T cells,RR,1,1.5
+GSM4071711,"Treatment naïve MS patients, 68116a-CD8",Multiple sclerosis (MS),F,38,CD8+ T cells,RR,1,1.5
+GSM4071712,"Treatment naïve MS patients, 69016a-CD14",Multiple sclerosis (MS),M,35,CD14+ monocytes,RR,1,2.5
+GSM4071713,"Treatment naïve MS patients, 69016a-CD8-",Multiple sclerosis (MS),M,35,CD8+ T cells,RR,1,2.5
+GSM4071714,"Treatment naïve MS patients, 69016a-CD8plus",Multiple sclerosis (MS),M,35,CD8+ T cells,RR,1,2.5
+GSM4071715,"Treatment naïve MS patients, 69316a-CD14",Multiple sclerosis (MS),M,29,CD14+ monocytes,RR,1,0
+GSM4071716,"Treatment naïve MS patients, 69316a-CD4",Multiple sclerosis (MS),M,29,CD4+ T cells,RR,1,0
+GSM4071717,"Treatment naïve MS patients, 69316a-CD8",Multiple sclerosis (MS),M,29,CD8+ T cells,RR,1,0
+GSM4071718,"Treatment naïve MS patients, 69516a-CD14",Multiple sclerosis (MS),F,28,CD14+ monocytes,RR,0,1.5
+GSM4071719,"Treatment naïve MS patients, 69516a-CD4",Multiple sclerosis (MS),F,28,CD4+ T cells,RR,0,1.5
+GSM4071720,"Treatment naïve MS patients, 69516a-CD8",Multiple sclerosis (MS),F,28,CD8+ T cells,RR,0,1.5
+GSM4071721,"Treatment naïve MS patients, 69716a-CD14",Multiple sclerosis (MS),F,35,CD14+ monocytes,RR,5,3
+GSM4071722,"Treatment naïve MS patients, 69716a-CD4",Multiple sclerosis (MS),F,35,CD4+ T cells,RR,5,3
+GSM4071723,"Treatment naïve MS patients, 69716a-CD8",Multiple sclerosis (MS),F,35,CD8+ T cells,RR,5,3
+GSM4071724,"Treatment naïve MS patients, 70216a-CD14",Multiple sclerosis (MS),M,39,CD14+ monocytes,RR,1,3.5
+GSM4071725,"Treatment naïve MS patients, 70216a-CD4",Multiple sclerosis (MS),M,39,CD4+ T cells,RR,1,3.5
+GSM4071726,"Treatment naïve MS patients, 70216a-CD8",Multiple sclerosis (MS),M,39,CD8+ T cells,RR,1,3.5
+GSM4071727,"Treatment naïve MS patients, 70616a-CD14",Multiple sclerosis (MS),F,43,CD14+ monocytes,RR,3,4
+GSM4071728,"Treatment naïve MS patients, 70616a-CD4",Multiple sclerosis (MS),F,43,CD4+ T cells,RR,3,4
+GSM4071729,"Treatment naïve MS patients, 70616a-CD8",Multiple sclerosis (MS),F,43,CD8+ T cells,RR,3,4
+GSM4071730,"Treatment naïve MS patients, 70916a-CD14",Multiple sclerosis (MS),F,35,CD14+ monocytes,CIS,0,2
+GSM4071731,"Treatment naïve MS patients, 70916a-CD4",Multiple sclerosis (MS),F,35,CD4+ T cells,CIS,0,2
+GSM4071732,"Treatment naïve MS patients, 70916a-CD8",Multiple sclerosis (MS),F,35,CD8+ T cells,CIS,0,2
+GSM4071733,"Treatment naïve MS patients, 71016a-CD14",Multiple sclerosis (MS),F,29,CD14+ monocytes,CIS,1,1.5
+GSM4071734,"Treatment naïve MS patients, 71016a-CD4",Multiple sclerosis (MS),F,29,CD4+ T cells,CIS,1,1.5
+GSM4071735,"Treatment naïve MS patients, 71016a-CD8",Multiple sclerosis (MS),F,29,CD8+ T cells,CIS,1,1.5
+GSM4071736,"Treatment naïve MS patients, 71416a-CD14",Multiple sclerosis (MS),F,27,CD14+ monocytes,RR,1,1
+GSM4071737,"Treatment naïve MS patients, 71416a-CD4",Multiple sclerosis (MS),F,27,CD4+ T cells,RR,1,1
+GSM4071738,"Treatment naïve MS patients, 71416a-CD8",Multiple sclerosis (MS),F,27,CD8+ T cells,RR,1,1
+GSM4071739,"Treatment naïve MS patients, 71616a-CD14",Multiple sclerosis (MS),M,40,CD14+ monocytes,CIS,0,2.5
+GSM4071740,"Treatment naïve MS patients, 71616a-CD4",Multiple sclerosis (MS),M,40,CD4+ T cells,CIS,0,2.5
+GSM4071741,"Treatment naïve MS patients, 71616a-CD8",Multiple sclerosis (MS),M,40,CD8+ T cells,CIS,0,2.5
+GSM4071742,"Treatment naïve MS patients, 71916a-CD14",Multiple sclerosis (MS),F,29,CD14+ monocytes,RR,1,2.5
+GSM4071743,"Treatment naïve MS patients, 71916a-CD4",Multiple sclerosis (MS),F,29,CD4+ T cells,RR,1,2.5
+GSM4071744,"Treatment naïve MS patients, 71916a-CD8",Multiple sclerosis (MS),F,29,CD8+ T cells,RR,1,2.5
+GSM4071745,"Treatment naïve MS patients, 72116a-CD14",Multiple sclerosis (MS),M,45,CD14+ monocytes,PP,5,4
+GSM4071746,"Treatment naïve MS patients, 72116a-CD4",Multiple sclerosis (MS),M,45,CD4+ T cells,PP,5,4
+GSM4071747,"Treatment naïve MS patients, 72116a-CD8",Multiple sclerosis (MS),M,45,CD8+ T cells,PP,5,4
+GSM4071748,"Treatment naïve MS patients, 72516a-CD14",Multiple sclerosis (MS),M,29,CD14+ monocytes,RR,0,4.5
+GSM4071749,"Treatment naïve MS patients, 72516a-CD4",Multiple sclerosis (MS),M,29,CD4+ T cells,RR,0,4.5
+GSM4071750,"Treatment naïve MS patients, 72516a-CD8",Multiple sclerosis (MS),M,29,CD8+ T cells,RR,0,4.5
+GSM4071751,"Treatment naïve MS patients, 73216a-CD14",Multiple sclerosis (MS),F,37,CD14+ monocytes,CIS,0,2.5
+GSM4071752,"Treatment naïve MS patients, 73216a-CD4",Multiple sclerosis (MS),F,37,CD4+ T cells,CIS,0,2.5
+GSM4071753,"Treatment naïve MS patients, 73216a-CD8",Multiple sclerosis (MS),F,37,CD8+ T cells,CIS,0,2.5
+GSM4071754,"Treatment naïve MS patients, 73416a-CD14",Multiple sclerosis (MS),F,21,CD14+ monocytes,RR,0,1.5
+GSM4071755,"Treatment naïve MS patients, 73416a-CD4",Multiple sclerosis (MS),F,21,CD4+ T cells,RR,0,1.5
+GSM4071756,"Treatment naïve MS patients, 73416a-CD8",Multiple sclerosis (MS),F,21,CD8+ T cells,RR,0,1.5
+GSM4071757,"Treatment naïve MS patients, 73916a-CD14",Multiple sclerosis (MS),F,36,CD14+ monocytes,CIS,0,2
+GSM4071758,"Treatment naïve MS patients, 73916a-CD4",Multiple sclerosis (MS),F,36,CD4+ T cells,CIS,0,2
+GSM4071759,"Treatment naïve MS patients, 73916a-CD8",Multiple sclerosis (MS),F,36,CD8+ T cells,CIS,0,2
+GSM4071760,"Treatment naïve MS patients, 74116a-CD14",Multiple sclerosis (MS),F,32,CD14+ monocytes,CIS,0,1
+GSM4071761,"Treatment naïve MS patients, 74116a-CD4",Multiple sclerosis (MS),F,32,CD4+ T cells,CIS,0,1
+GSM4071762,"Treatment naïve MS patients, 74116a-CD8",Multiple sclerosis (MS),F,32,CD8+ T cells,CIS,0,1
+GSM4071763,"Treatment naïve MS patients, 74216a-CD14",Multiple sclerosis (MS),F,37,CD14+ monocytes,CIS,0,1
+GSM4071764,"Treatment naïve MS patients, 74216a-CD4",Multiple sclerosis (MS),F,37,CD4+ T cells,CIS,0,1
+GSM4071765,"Treatment naïve MS patients, 74216a-CD8",Multiple sclerosis (MS),F,37,CD8+ T cells,CIS,0,1
+GSM4071766,"Treatment naïve MS patients, 75016a-CD14",Multiple sclerosis (MS),M,49,CD14+ monocytes,RIS,0,2
+GSM4071767,"Treatment naïve MS patients, 75016a-CD4",Multiple sclerosis (MS),M,49,CD4+ T cells,RIS,0,2
+GSM4071768,"Treatment naïve MS patients, 75016a-CD8",Multiple sclerosis (MS),M,49,CD8+ T cells,RIS,0,2
+GSM4071769,"Treatment naïve MS patients, 75216a-CD14",Multiple sclerosis (MS),F,32,CD14+ monocytes,RR,1,1.5
+GSM4071770,"Treatment naïve MS patients, 75216a-CD4",Multiple sclerosis (MS),F,32,CD4+ T cells,RR,1,1.5
+GSM4071771,"Treatment naïve MS patients, 75216a-CD8",Multiple sclerosis (MS),F,32,CD8+ T cells,RR,1,1.5
+GSM4071772,"Treatment naïve MS patients, 75416a-CD14",Multiple sclerosis (MS),F,33,CD14+ monocytes,RR,2,1
+GSM4071773,"Treatment naïve MS patients, 75416a-CD4",Multiple sclerosis (MS),F,33,CD4+ T cells,RR,2,1
+GSM4071774,"Treatment naïve MS patients, 75416a-CD8",Multiple sclerosis (MS),F,33,CD8+ T cells,RR,2,1
+GSM4071775,"Treatment naïve MS patients, 75616a-CD14",Multiple sclerosis (MS),F,25,CD14+ monocytes,CIS,0,2
+GSM4071776,"Treatment naïve MS patients, 75616a-CD4",Multiple sclerosis (MS),F,25,CD4+ T cells,CIS,0,2
+GSM4071777,"Treatment naïve MS patients, 75616a-CD8",Multiple sclerosis (MS),F,25,CD8+ T cells,CIS,0,2
+GSM4071778,"Treatment naïve MS patients, 75816a-CD14",Multiple sclerosis (MS),F,31,CD14+ monocytes,CIS,0,2
+GSM4071779,"Treatment naïve MS patients, 75816a-CD4",Multiple sclerosis (MS),F,31,CD4+ T cells,CIS,0,2
+GSM4071780,"Treatment naïve MS patients, 75816a-CD8",Multiple sclerosis (MS),F,31,CD8+ T cells,CIS,0,2
+GSM4071781,"Treatment naïve MS patients, 76016a-CD14",Multiple sclerosis (MS),M,24,CD14+ monocytes,RR,0,1
+GSM4071782,"Treatment naïve MS patients, 76016a-CD4",Multiple sclerosis (MS),M,24,CD4+ T cells,RR,0,1
+GSM4071783,"Treatment naïve MS patients, 76016a-CD8",Multiple sclerosis (MS),M,24,CD8+ T cells,RR,0,1
+GSM4071784,"Treatment naïve MS patients, 76116a-CD14",Multiple sclerosis (MS),F,44,CD14+ monocytes,RR,0,0
+GSM4071785,"Treatment naïve MS patients, 76116a-CD4",Multiple sclerosis (MS),F,44,CD4+ T cells,RR,0,0
+GSM4071786,"Treatment naïve MS patients, 76116a-CD8",Multiple sclerosis (MS),F,44,CD8+ T cells,RR,0,0
+GSM4071787,"Treatment naïve MS patients, 77616a-CD14",Multiple sclerosis (MS),F,33,CD14+ monocytes,CIS,0,1.5
+GSM4071788,"Treatment naïve MS patients, 77616a-CD4",Multiple sclerosis (MS),F,33,CD4+ T cells,CIS,0,1.5
+GSM4071789,"Treatment naïve MS patients, 77616a-CD8",Multiple sclerosis (MS),F,33,CD8+ T cells,CIS,0,1.5
+GSM4071790,"Treatment naïve MS patients, 78417a-CD14",Multiple sclerosis (MS),M,27,CD14+ monocytes,RR,1,1
+GSM4071791,"Treatment naïve MS patients, 78417a-CD4",Multiple sclerosis (MS),M,27,CD4+ T cells,RR,1,1
+GSM4071792,"Treatment naïve MS patients, 78417a-CD8",Multiple sclerosis (MS),M,27,CD8+ T cells,RR,1,1
+GSM4071793,"Treatment naïve MS patients, 78617a-CD14",Multiple sclerosis (MS),F,NA,CD14+ monocytes,RR,NA,NA
+GSM4071794,"Treatment naïve MS patients, 78617a-CD4",Multiple sclerosis (MS),F,NA,CD4+ T cells,RR,NA,NA
+GSM4071795,"Treatment naïve MS patients, 78617a-CD8",Multiple sclerosis (MS),F,NA,CD8+ T cells,RR,NA,NA
+GSM4071796,"Treatment naïve MS patients, 78817a-CD14",Multiple sclerosis (MS),M,36,CD14+ monocytes,RR,NA,NA
+GSM4071797,"Treatment naïve MS patients, 78817a-CD4",Multiple sclerosis (MS),M,36,CD4+ T cells,RR,NA,NA
+GSM4071798,"Treatment naïve MS patients, 78817a-CD8",Multiple sclerosis (MS),M,36,CD8+ T cells,RR,NA,NA
+GSM4071799,"Treatment naïve MS patients, 78917a-CD14",Multiple sclerosis (MS),F,24,CD14+ monocytes,RR,1,1.5
+GSM4071800,"Treatment naïve MS patients, 78917a-CD4",Multiple sclerosis (MS),F,24,CD4+ T cells,RR,1,1.5
+GSM4071801,"Treatment naïve MS patients, 78917a-CD8",Multiple sclerosis (MS),F,24,CD8+ T cells,RR,1,1.5
+GSM4071802,"Treatment naïve MS patients, 79017a-CD14",Multiple sclerosis (MS),F,33,CD14+ monocytes,CIS,0,1
+GSM4071803,"Treatment naïve MS patients, 79017a-CD4",Multiple sclerosis (MS),F,33,CD4+ T cells,CIS,0,1
+GSM4071804,"Treatment naïve MS patients, 79017a-CD8",Multiple sclerosis (MS),F,33,CD8+ T cells,CIS,0,1
+GSM4071805,"Treatment naïve MS patients, 79317a-CD14",Multiple sclerosis (MS),F,36,CD14+ monocytes,RR,1,3
+GSM4071806,"Treatment naïve MS patients, 79317a-CD4",Multiple sclerosis (MS),F,36,CD4+ T cells,RR,1,3
+GSM4071807,"Treatment naïve MS patients, 79317a-CD8",Multiple sclerosis (MS),F,36,CD8+ T cells,RR,1,3
+GSM4071808,"Treatment naïve MS patients, 79617a-CD14",Multiple sclerosis (MS),F,29,CD14+ monocytes,CIS,0,2
+GSM4071809,"Treatment naïve MS patients, 79617a-CD4",Multiple sclerosis (MS),F,29,CD4+ T cells,CIS,0,2
+GSM4071810,"Treatment naïve MS patients, 79617a-CD8",Multiple sclerosis (MS),F,29,CD8+ T cells,CIS,0,2
+GSM4071811,"Treatment naïve MS patients, 79717a-CD14",Multiple sclerosis (MS),M,36,CD14+ monocytes,RR,0,2
+GSM4071812,"Treatment naïve MS patients, 79717a-CD4",Multiple sclerosis (MS),M,36,CD4+ T cells,RR,0,2
+GSM4071813,"Treatment naïve MS patients, 79717a-CD8",Multiple sclerosis (MS),M,36,CD8+ T cells,RR,0,2
+GSM4071814,"Treatment naïve MS patients, 80017a-CD14",Multiple sclerosis (MS),F,32,CD14+ monocytes,CIS,0,1.5
+GSM4071815,"Treatment naïve MS patients, 80017a-CD4",Multiple sclerosis (MS),F,32,CD4+ T cells,CIS,0,1.5
+GSM4071816,"Treatment naïve MS patients, 80017a-CD8",Multiple sclerosis (MS),F,32,CD8+ T cells,CIS,0,1.5
+GSM4071817,"Treatment naïve MS patients, 80217a-CD14",Multiple sclerosis (MS),M,42,CD14+ monocytes,RR,19,3
+GSM4071818,"Treatment naïve MS patients, 80217a-CD4",Multiple sclerosis (MS),M,42,CD4+ T cells,RR,19,3
+GSM4071819,"Treatment naïve MS patients, 80217a-CD8",Multiple sclerosis (MS),M,42,CD8+ T cells,RR,19,3
+GSM4071820,"Treatment naïve MS patients, 80317a-CD14",Multiple sclerosis (MS),F,55,CD14+ monocytes,PP,4,4
+GSM4071821,"Treatment naïve MS patients, 80317a-CD4",Multiple sclerosis (MS),F,55,CD4+ T cells,PP,4,4
+GSM4071822,"Treatment naïve MS patients, 80317a-CD8",Multiple sclerosis (MS),F,55,CD8+ T cells,PP,4,4
+GSM4071823,"Treatment naïve MS patients, 80417a-CD14",Multiple sclerosis (MS),F,59,CD14+ monocytes,PP,NA,3.5
+GSM4071824,"Treatment naïve MS patients, 80417a-CD4",Multiple sclerosis (MS),F,59,CD4+ T cells,PP,NA,3.5
+GSM4071825,"Treatment naïve MS patients, 80417a-CD8",Multiple sclerosis (MS),F,59,CD8+ T cells,PP,NA,3.5
+GSM4071826,"Treatment naïve MS patients, 80617a-CD14",Multiple sclerosis (MS),F,44,CD14+ monocytes,RR,0,0
+GSM4071827,"Treatment naïve MS patients, 80617a-CD4",Multiple sclerosis (MS),F,44,CD4+ T cells,RR,0,0
+GSM4071828,"Treatment naïve MS patients, 80617a-CD8",Multiple sclerosis (MS),F,44,CD8+ T cells,RR,0,0
+GSM4071829,"Treatment naïve MS patients, 80917a-CD14",Multiple sclerosis (MS),F,NA,CD14+ monocytes,Unknown,NA,NA
+GSM4071830,"Treatment naïve MS patients, 80917a-CD4",Multiple sclerosis (MS),F,NA,CD4+ T cells,Unknown,NA,NA
+GSM4071831,"Treatment naïve MS patients, 80917a-CD8",Multiple sclerosis (MS),F,NA,CD8+ T cells,Unknown,NA,NA
+GSM4071832,"Treatment naïve MS patients, 81017a-CD14",Multiple sclerosis (MS),M,40,CD14+ monocytes,RR,7,2.5
+GSM4071833,"Treatment naïve MS patients, 81017a-CD4",Multiple sclerosis (MS),M,40,CD4+ T cells,RR,7,2.5
+GSM4071834,"Treatment naïve MS patients, 81917a-CD14",Multiple sclerosis (MS),M,19,CD14+ monocytes,CIS,0,2
+GSM4071835,"Treatment naïve MS patients, 81917a-CD4",Multiple sclerosis (MS),M,19,CD4+ T cells,CIS,0,2
+GSM4071836,"Treatment naïve MS patients, 81917a-CD8",Multiple sclerosis (MS),M,19,CD8+ T cells,CIS,0,2
+GSM4071837,"Treatment naïve MS patients, 82317a-CD14",Multiple sclerosis (MS),M,44,CD14+ monocytes,PP,8,3.5
+GSM4071838,"Treatment naïve MS patients, 82317a-CD4",Multiple sclerosis (MS),M,44,CD4+ T cells,PP,8,3.5
+GSM4071839,"Treatment naïve MS patients, 82317a-CD8",Multiple sclerosis (MS),M,44,CD8+ T cells,PP,8,3.5
+GSM4071840,"Treatment naïve MS patients, 82417a-CD14",Multiple sclerosis (MS),F,48,CD14+ monocytes,RR,2,2
+GSM4071841,"Treatment naïve MS patients, 82417a-CD4",Multiple sclerosis (MS),F,48,CD4+ T cells,RR,2,2
+GSM4071842,"Treatment naïve MS patients, 82417a-CD8",Multiple sclerosis (MS),F,48,CD8+ T cells,RR,2,2
+GSM4071843,"Healthy controls, 82817a-CD14",Healthy control,F,43,CD14+ monocytes,NA,NA,NA
+GSM4071844,"Healthy controls, 82817a-CD4",Healthy control,F,43,CD4+ T cells,NA,NA,NA
+GSM4071845,"Healthy controls, 82817a-CD8",Healthy control,F,43,CD8+ T cells,NA,NA,NA
+GSM4071846,"Treatment naïve MS patients, 82917a-CD14",Multiple sclerosis (MS),M,29,CD14+ monocytes,RR,2,1.5
+GSM4071847,"Treatment naïve MS patients, 82917a-CD4",Multiple sclerosis (MS),M,29,CD4+ T cells,RR,2,1.5
+GSM4071848,"Treatment naïve MS patients, 82917a-CD8",Multiple sclerosis (MS),M,29,CD8+ T cells,RR,2,1.5
+GSM4071849,"Healthy controls, 83117a-CD14",Healthy control,M,32,CD14+ monocytes,NA,NA,NA
+GSM4071850,"Healthy controls, 83117a-CD4",Healthy control,M,32,CD4+ T cells,NA,NA,NA
+GSM4071851,"Healthy controls, 83117a-CD8",Healthy control,M,32,CD8+ T cells,NA,NA,NA
+GSM4071852,"Healthy controls, 83217a-CD14",Healthy control,M,48,CD14+ monocytes,NA,NA,NA
+GSM4071853,"Healthy controls, 83217a-CD4",Healthy control,M,48,CD4+ T cells,NA,NA,NA
+GSM4071854,"Healthy controls, 83217a-CD8",Healthy control,M,48,CD8+ T cells,NA,NA,NA
+GSM4071855,"Healthy controls, 83317a-CD14",Healthy control,F,31,CD14+ monocytes,NA,NA,NA
+GSM4071856,"Healthy controls, 83317a-CD4",Healthy control,F,31,CD4+ T cells,NA,NA,NA
+GSM4071857,"Healthy controls, 83317a-CD8",Healthy control,F,31,CD8+ T cells,NA,NA,NA
+GSM4071858,"Healthy controls, 83417a-CD14",Healthy control,F,23,CD14+ monocytes,NA,NA,NA
+GSM4071859,"Healthy controls, 83417a-CD4",Healthy control,F,23,CD4+ T cells,NA,NA,NA
+GSM4071860,"Healthy controls, 83417a-CD8",Healthy control,F,23,CD8+ T cells,NA,NA,NA
+GSM4071861,"Treatment naïve MS patients, 83517a-CD14",Multiple sclerosis (MS),M,35,CD14+ monocytes,RR,0,1.5
+GSM4071862,"Treatment naïve MS patients, 83517a-CD4",Multiple sclerosis (MS),M,35,CD4+ T cells,RR,0,1.5
+GSM4071863,"Treatment naïve MS patients, 83517a-CD8",Multiple sclerosis (MS),M,35,CD8+ T cells,RR,0,1.5
+GSM4071864,"Treatment naïve MS patients, 84017a-CD14",Multiple sclerosis (MS),M,61,CD14+ monocytes,PP,1,5.5
+GSM4071865,"Treatment naïve MS patients, 84017a-CD4",Multiple sclerosis (MS),M,61,CD4+ T cells,PP,1,5.5
+GSM4071866,"Treatment naïve MS patients, 84017a-CD8",Multiple sclerosis (MS),M,61,CD8+ T cells,PP,1,5.5
+GSM4071867,"Healthy controls, 84117a-CD14",Healthy control,M,35,CD14+ monocytes,NA,NA,NA
+GSM4071868,"Healthy controls, 84117a-CD4",Healthy control,M,35,CD4+ T cells,NA,NA,NA
+GSM4071869,"Healthy controls, 84117a-CD8",Healthy control,M,35,CD8+ T cells,NA,NA,NA
+GSM4071870,"Healthy controls, 84217a-CD14",Healthy control,F,24,CD14+ monocytes,NA,NA,NA
+GSM4071871,"Healthy controls, 84217a-CD4",Healthy control,F,24,CD4+ T cells,NA,NA,NA
+GSM4071872,"Healthy controls, 84217a-CD8",Healthy control,F,24,CD8+ T cells,NA,NA,NA
+GSM4071873,"Treatment naïve MS patients, 84317a-CD14",Multiple sclerosis (MS),F,38,CD14+ monocytes,CIS,1,3.5
+GSM4071874,"Treatment naïve MS patients, 84317a-CD4",Multiple sclerosis (MS),F,38,CD4+ T cells,CIS,1,3.5
+GSM4071875,"Treatment naïve MS patients, 84317a-CD8",Multiple sclerosis (MS),F,38,CD8+ T cells,CIS,1,3.5
+GSM4071876,"Treatment naïve MS patients, 84517a-CD14",Multiple sclerosis (MS),M,21,CD14+ monocytes,RR,0,4
+GSM4071877,"Treatment naïve MS patients, 84517a-CD4",Multiple sclerosis (MS),M,21,CD4+ T cells,RR,0,4
+GSM4071878,"Treatment naïve MS patients, 84517a-CD8",Multiple sclerosis (MS),M,21,CD8+ T cells,RR,0,4
+GSM4071879,"Healthy controls, 84617a-CD14",Healthy control,M,23,CD14+ monocytes,NA,NA,NA
+GSM4071880,"Healthy controls, 84617a-CD4",Healthy control,M,23,CD4+ T cells,NA,NA,NA
+GSM4071881,"Healthy controls, 84617a-CD8",Healthy control,M,23,CD8+ T cells,NA,NA,NA
+GSM4071882,"Healthy controls, 84717a-CD14",Healthy control,F,32,CD14+ monocytes,NA,NA,NA
+GSM4071883,"Healthy controls, 84717a-CD4",Healthy control,F,32,CD4+ T cells,NA,NA,NA
+GSM4071884,"Healthy controls, 84717a-CD8",Healthy control,F,32,CD8+ T cells,NA,NA,NA
+GSM4071885,"Healthy controls, 84817a-CD14",Healthy control,M,23,CD14+ monocytes,NA,NA,NA
+GSM4071886,"Healthy controls, 84817a-CD4",Healthy control,M,23,CD4+ T cells,NA,NA,NA
+GSM4071887,"Healthy controls, 84817a-CD8",Healthy control,M,23,CD8+ T cells,NA,NA,NA
+GSM4071888,"Healthy controls, 84917a-CD14",Healthy control,F,26,CD14+ monocytes,NA,NA,NA
+GSM4071889,"Healthy controls, 84917a-CD4",Healthy control,F,26,CD4+ T cells,NA,NA,NA
+GSM4071890,"Healthy controls, 84917a-CD8",Healthy control,F,26,CD8+ T cells,NA,NA,NA
+GSM4071891,"Healthy controls, 85117a-CD14",Healthy control,F,26,CD14+ monocytes,NA,NA,NA
+GSM4071892,"Healthy controls, 85117a-CD4",Healthy control,F,26,CD4+ T cells,NA,NA,NA
+GSM4071893,"Healthy controls, 85117a-CD8",Healthy control,F,26,CD8+ T cells,NA,NA,NA
+GSM4071894,"Treatment naïve MS patients, 85217a-CD14",Multiple sclerosis (MS),F,29,CD14+ monocytes,RR,2,1.5
+GSM4071895,"Treatment naïve MS patients, 85217a-CD4",Multiple sclerosis (MS),F,29,CD4+ T cells,RR,2,1.5
+GSM4071896,"Treatment naïve MS patients, 85217a-CD8",Multiple sclerosis (MS),F,29,CD8+ T cells,RR,2,1.5
+GSM4071897,"Healthy controls, 85317a-CD14",Healthy control,M,32,CD14+ monocytes,NA,NA,NA
+GSM4071898,"Healthy controls, 85317a-CD4",Healthy control,M,32,CD4+ T cells,NA,NA,NA
+GSM4071899,"Healthy controls, 85317a-CD8",Healthy control,M,32,CD8+ T cells,NA,NA,NA
+GSM4071900,"Treatment naïve MS patients, 85517a-CD14",Multiple sclerosis (MS),F,32,CD14+ monocytes,RR,0,2.5
+GSM4071901,"Treatment naïve MS patients, 85517a-CD4",Multiple sclerosis (MS),F,32,CD4+ T cells,RR,0,2.5
+GSM4071902,"Treatment naïve MS patients, 85517a-CD8",Multiple sclerosis (MS),F,32,CD8+ T cells,RR,0,2.5
+GSM4071903,"Treatment naïve MS patients, 85617a-CD14",Multiple sclerosis (MS),F,58,CD14+ monocytes,CIS,NA,NA
+GSM4071904,"Treatment naïve MS patients, 85617a-CD4",Multiple sclerosis (MS),F,58,CD4+ T cells,CIS,NA,NA
+GSM4071905,"Treatment naïve MS patients, 85617a-CD8",Multiple sclerosis (MS),F,58,CD8+ T cells,CIS,NA,NA
+GSM4071906,"Treatment naïve MS patients, 85917a-CD14",Multiple sclerosis (MS),M,37,CD14+ monocytes,RR,0,3.5
+GSM4071907,"Treatment naïve MS patients, 85917a-CD4",Multiple sclerosis (MS),M,37,CD4+ T cells,RR,0,3.5
+GSM4071908,"Treatment naïve MS patients, 85917a-CD8",Multiple sclerosis (MS),M,37,CD8+ T cells,RR,0,3.5
+GSM4071909,"Healthy controls, 86117a-CD14",Healthy control,M,24,CD14+ monocytes,NA,NA,NA
+GSM4071910,"Healthy controls, 86117a-CD4",Healthy control,M,24,CD4+ T cells,NA,NA,NA
+GSM4071911,"Healthy controls, 86117a-CD8",Healthy control,M,24,CD8+ T cells,NA,NA,NA
+GSM4071912,"Healthy controls, 86217a-CD14",Healthy control,F,25,CD14+ monocytes,NA,NA,NA
+GSM4071913,"Healthy controls, 86217a-CD4",Healthy control,F,25,CD4+ T cells,NA,NA,NA
+GSM4071914,"Healthy controls, 86217a-CD8",Healthy control,F,25,CD8+ T cells,NA,NA,NA
+GSM4071915,"Healthy controls, 86417a-CD14",Healthy control,F,26,CD14+ monocytes,NA,NA,NA
+GSM4071916,"Healthy controls, 86417a-CD4",Healthy control,F,26,CD4+ T cells,NA,NA,NA
+GSM4071917,"Healthy controls, 86417a-CD8",Healthy control,F,26,CD8+ T cells,NA,NA,NA
+GSM4071918,"Treatment naïve MS patients, 86517a-CD14",Multiple sclerosis (MS),F,32,CD14+ monocytes,RR,1,1
+GSM4071919,"Treatment naïve MS patients, 86517a-CD4",Multiple sclerosis (MS),F,32,CD4+ T cells,RR,1,1
+GSM4071920,"Treatment naïve MS patients, 86517a-CD8",Multiple sclerosis (MS),F,32,CD8+ T cells,RR,1,1
+GSM4071921,"Healthy controls, 86617a-CD14",Healthy control,F,29,CD14+ monocytes,NA,NA,NA
+GSM4071922,"Healthy controls, 86617a-CD4",Healthy control,F,29,CD4+ T cells,NA,NA,NA
+GSM4071923,"Healthy controls, 86617a-CD8",Healthy control,F,29,CD8+ T cells,NA,NA,NA
+GSM4071924,"Healthy controls, 86717a-CD14",Healthy control,M,37,CD14+ monocytes,NA,NA,NA
+GSM4071925,"Healthy controls, 86717a-CD4",Healthy control,M,37,CD4+ T cells,NA,NA,NA
+GSM4071926,"Healthy controls, 86717a-CD8",Healthy control,M,37,CD8+ T cells,NA,NA,NA
+GSM4071927,"Treatment naïve MS patients, 87017a-CD14",Multiple sclerosis (MS),F,36,CD14+ monocytes,CIS,0,2
+GSM4071928,"Treatment naïve MS patients, 87017a-CD4",Multiple sclerosis (MS),F,36,CD4+ T cells,CIS,0,2
+GSM4071929,"Treatment naïve MS patients, 87017a-CD8",Multiple sclerosis (MS),F,36,CD8+ T cells,CIS,0,2
+GSM4071930,"Treatment naïve MS patients, 87117a-CD14",Multiple sclerosis (MS),F,39,CD14+ monocytes,RR,1,3
+GSM4071931,"Treatment naïve MS patients, 87117a-CD4",Multiple sclerosis (MS),F,39,CD4+ T cells,RR,1,3
+GSM4071932,"Treatment naïve MS patients, 87117a-CD8",Multiple sclerosis (MS),F,39,CD8+ T cells,RR,1,3
+GSM4071933,"Healthy controls, 87317a-CD14",Healthy control,M,26,CD14+ monocytes,NA,NA,NA
+GSM4071934,"Healthy controls, 87317a-CD4",Healthy control,M,26,CD4+ T cells,NA,NA,NA
+GSM4071935,"Healthy controls, 87317a-CD8",Healthy control,M,26,CD8+ T cells,NA,NA,NA
+GSM4071936,"Healthy controls, 87417a-CD14",Healthy control,M,32,CD14+ monocytes,NA,NA,NA
+GSM4071937,"Healthy controls, 87417a-CD4",Healthy control,M,32,CD4+ T cells,NA,NA,NA
+GSM4071938,"Healthy controls, 87417a-CD8",Healthy control,M,32,CD8+ T cells,NA,NA,NA
+GSM4071939,"Treatment naïve MS patients, 87617a-CD14",Multiple sclerosis (MS),M,43,CD14+ monocytes,RR,0,0
+GSM4071940,"Treatment naïve MS patients, 87617a-CD4",Multiple sclerosis (MS),M,43,CD4+ T cells,RR,0,0
+GSM4071941,"Treatment naïve MS patients, 87617a-CD8",Multiple sclerosis (MS),M,43,CD8+ T cells,RR,0,0
+GSM4071942,"Treatment naïve MS patients, 87717a-CD14",Multiple sclerosis (MS),F,45,CD14+ monocytes,CIS,0,2
+GSM4071943,"Treatment naïve MS patients, 87717a-CD4",Multiple sclerosis (MS),F,45,CD4+ T cells,CIS,0,2
+GSM4071944,"Treatment naïve MS patients, 87717a-CD8",Multiple sclerosis (MS),F,45,CD8+ T cells,CIS,0,2
+GSM4071945,"Treatment naïve MS patients, 87817a-CD14",Multiple sclerosis (MS),F,29,CD14+ monocytes,RR,0,3.5
+GSM4071946,"Treatment naïve MS patients, 87817a-CD4",Multiple sclerosis (MS),F,29,CD4+ T cells,RR,0,3.5
+GSM4071947,"Treatment naïve MS patients, 87817a-CD8",Multiple sclerosis (MS),F,29,CD8+ T cells,RR,0,3.5

@@ -1,0 +1,4 @@
+drug,n_targets_in_net,d_closest,z_score,rand_mean
+Betaferon,2,2.0,-0.01,2.006
+Tecfidera,0,,,
+Ocrevus,1,1.0,-0.64,1.938
