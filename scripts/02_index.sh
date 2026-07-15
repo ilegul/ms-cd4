@@ -14,12 +14,18 @@ set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")"
 source ./lib_common.sh
 
-INDEX_DIR_NAME="salmon_index_v112_utf8"
+BUILD_DECOY="${BUILD_DECOY:-0}"
+# Use a SEPARATE directory per index type, so BUILD_DECOY=1 does not silently reuse an
+# already-built transcriptome-only index (and vice versa).
+if [ "$BUILD_DECOY" = "1" ]; then
+    INDEX_DIR_NAME="salmon_index_v112_decoy"
+else
+    INDEX_DIR_NAME="salmon_index_v112_utf8"
+fi
 INDEX_HOST="$DATA_DIR/$INDEX_DIR_NAME"
 TX_FA="gencode.v28.transcripts.fa.gz"
-BUILD_DECOY="${BUILD_DECOY:-0}"
 
-log "=== Step 2: Salmon index ==="
+log "=== Step 2: Salmon index (BUILD_DECOY=$BUILD_DECOY -> $INDEX_DIR_NAME) ==="
 
 if [ -f "$INDEX_HOST/info.json" ]; then
     log "Index already built at $INDEX_HOST (info.json present) - reusing, skipping build."

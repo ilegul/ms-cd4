@@ -2,6 +2,7 @@ Module	Section	Sample Name	Source
 fastp	all_sections	SRR10089413_1	/project/results/qc/fastp/SRR10089413.fastp.json
 fastp	all_sections	SRR10089428_1	/project/results/qc/fastp/SRR10089428.fastp.json
 fastp	all_sections	SRR10089431_1	/project/results/qc/fastp/SRR10089431.fastp.json
+fastp	all_sections	SRR10089494_1	/project/results/qc/fastp/SRR10089494.fastp.json
 fastp	all_sections	SRR10089503_1	/project/results/qc/fastp/SRR10089503.fastp.json
 fastp	all_sections	SRR10089583_1	/project/results/qc/fastp/SRR10089583.fastp.json
 fastp	all_sections	SRR10089589_1	/project/results/qc/fastp/SRR10089589.fastp.json

@@ -1,0 +1,8 @@
+drug,active_ingredient,gene_target,drugbank_id,target_role,action,source
+Betaferon,interferon beta-1b,IFNAR1,DB00068,receptor,agonist,DrugBank
+Betaferon,interferon beta-1b,IFNAR2,DB00068,receptor,agonist,DrugBank
+Tecfidera,dimethyl fumarate,NFE2L2,DB08908,pathway (downstream),activator (indirect),DrugBank/literature
+Tecfidera,dimethyl fumarate,KEAP1,DB08908,enzyme,inhibitor (covalent),DrugBank/literature
+Tecfidera,dimethyl fumarate,HCAR2,DB08908,receptor,agonist,DrugBank
+Tecfidera,dimethyl fumarate,GAPDH,DB08908,enzyme,inhibitor,literature
+Ocrevus,ocrelizumab,MS4A1,DB11988,antigen (CD20),antibody,DrugBank

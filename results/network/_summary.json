@@ -1,0 +1,1 @@
+{"disease_module": ["CXCR1", "PLCG2", "FCGR3A", "LYN", "CXCR2", "CX3CR1", "NCAM1", "KLRK1", "FASLG", "XCL1", "XCL2", "ITGA2", "GNAI1", "CCL4", "CCL3L1"], "lcc_nodes": 39, "lcc_edges": 55, "n_comm": 6, "modularity": 0.616}

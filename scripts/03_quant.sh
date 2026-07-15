@@ -54,4 +54,17 @@ log "=== running MultiQC on salmon outputs ==="
 dock multiqc "/project/data/salmon_quants" -o "/project/results/qc/multiqc" -n multiqc_salmon -f \
     2>&1 | tee "$LOG_DIR/03_multiqc.log"
 
+# --- Verify completion (the piped loop above runs in a subshell, so re-check here) ---
+missing=()
+while IFS=',' read -r sample_id _rest; do
+    [ -z "$sample_id" ] && continue
+    if [ ! -s "$DATA_DIR/salmon_quants/${sample_id}/quant.genes.sf" ]; then
+        missing+=("$sample_id")
+    fi
+done < <(tail -n +2 "$SAMPLES_CSV")
+
+if [ "${#missing[@]}" -gt 0 ]; then
+    log "=== Step 3 INCOMPLETE: quantification missing for: ${missing[*]} ==="
+    exit 1
+fi
 log "=== Step 3 complete: all samples quantified ==="
