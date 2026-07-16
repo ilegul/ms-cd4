@@ -1,23 +1,23 @@
 part,deliverable,file_path
-Part1,Sample-selection table,data/metadata/samples.csv + results/qc/sample_design_audit.csv
+Part1,Sample-selection table,"data/metadata/samples.csv, results/qc/sample_design_audit.csv"
 Part1,Initially selected sample list (before QC replacement),data/metadata/initial_samples_before_qc.csv
 Part1,Read layout / length / QC paragraph,notebook Deliverable 1
-Part1,FastQC before/after comparison,"results/qc/{raw_fastqc,trimmed_fastqc,multiqc/multiqc_fastqc_beforeafter.html}; notebook Task 1b"
-Part1,QC summary tables,"results/qc/qc_summary.csv, adapter_evidence.csv, mapping_rate_raw_vs_trimmed.csv"
-Part1,Sample-level QC / outlier screening,"results/qc/outlier/; notebook Task 2b"
+Part1,FastQC before/after comparison,"results/qc/raw_fastqc/, results/qc/trimmed_fastqc/, results/qc/multiqc/multiqc_fastqc_beforeafter.html"
+Part1,QC summary tables,"results/qc/qc_summary.csv, results/qc/adapter_evidence.csv, results/qc/mapping_rate_raw_vs_trimmed.csv"
+Part1,Sample-level QC / outlier screening,"results/qc/outlier/, notebook Task 2b"
 Part1,Gene count matrix,results/dea/gene_counts_matrix.csv
 Part1,PCA / sample-distance heatmap,"results/dea/PCA.png, results/dea/sample_distance_heatmap.png"
 Part1,Volcano plot,results/dea/volcano.png
-Part1,Top-20 DEG tables,"results/dea/top20_DEGs.csv, top20_DEGs_protein_coding.csv"
-Part1,Differential expression tables,"results/dea/dea_results_full.csv, DEGs_FDR05.csv, DEGs_significant.csv"
+Part1,Top-20 DEG tables,"results/dea/top20_DEGs.csv, results/dea/top20_DEGs_protein_coding.csv"
+Part1,Differential expression tables,"results/dea/dea_results_full.csv, results/dea/DEGs_FDR05.csv, results/dea/DEGs_significant.csv"
 Part1,Sex-stratified exploratory analyses,results/dea/sex_stratified/
-Part1,Enriched-pathway tables,"results/enrichment/gsea_prerank.csv, ora_up.csv, ora_down.csv"
-Part1,Enrichment plots,"results/enrichment/gsea_barplot.png, ora_dotplot_*.png"
+Part1,Enriched-pathway tables,"results/enrichment/gsea_prerank.csv, results/enrichment/ora_up.csv, results/enrichment/ora_down.csv"
+Part1,Enrichment plots,"results/enrichment/gsea_barplot.png, results/enrichment/ora_dotplot_up-regulated DEGs.png, results/enrichment/ora_dotplot_down-regulated DEGs.png"
 Part1,Biological interpretation,notebook Deliverable 4
-Part1,Comparison with Kim et al.,notebook Task 5 + results/dea/neddylation_genes.csv
+Part1,Comparison with Kim et al.,"notebook Task 5, results/dea/neddylation_genes.csv"
 Part1,Limitations,notebook Limitations markdown cell
-Part2,Physical PPI edges (primary FDR + exploratory),"results/network/string_edges_primary.tsv, string_edges.tsv, string_edges_hiconf700.tsv"
-Part2,PPI input genes / mapping funnel,results/network/ppi_input_genes.csv + notebook network cell
+Part2,Physical PPI edges (primary FDR + exploratory + high-confidence),"results/network/string_edges_primary.tsv, results/network/string_edges.tsv, results/network/string_edges_hiconf700.tsv"
+Part2,PPI input genes / mapping funnel,"results/network/ppi_input_genes.csv, notebook network cell"
 Part2,Node centralities and disease module,results/network/centrality.csv
 Part2,Community detection (Louvain / Leiden),results/network/communities.csv
 Part2,Community vs Part-1 enrichment,notebook community-enrichment cell
@@ -28,5 +28,5 @@ Part2,Drug-target to community mapping,results/network/drug_target_communities.c
 Part2,Drug-target shortest-path network,results/network/drug_target_paths.graphml
 Part2,Cytoscape node attribute table,results/network/node_info.tsv
 Part2,PPI network for Cytoscape,results/network/ppi_network.graphml
-Repro,Environment / kernel,requirements.txt + notebook reproducibility cell
+Repro,Environment / kernel,"requirements.txt, notebook reproducibility cell"
 Repro,Pipeline state marker,results/pipeline_state.json

@@ -8,7 +8,7 @@ source ./lib_common.sh
 
 SAMPLES_CSV="$DATA_DIR/metadata/samples.csv"
 FASTP_QC_DIR="$RESULTS_DIR/qc/fastp"
-mkdir -p "$FASTP_QC_DIR"
+mkdir -p "$FASTP_QC_DIR" "$DATA_DIR/fastq_trimmed"
 
 log "=== Step 1: fastp QC/trim ==="
 

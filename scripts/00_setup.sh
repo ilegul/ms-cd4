@@ -24,7 +24,7 @@ if ! docker image inspect "$IMAGE" > /dev/null 2>&1; then
 fi
 log "Docker image '$IMAGE': OK"
 
-for bin in salmon fastp multiqc; do
+for bin in salmon fastp fastqc multiqc; do
     ver=$(dock "$bin" --version 2>&1 | head -1)
     log "  $bin -> $ver"
 done

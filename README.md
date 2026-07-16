@@ -29,7 +29,7 @@ MS_CD4/
 │   ├── 01_qc_trim.sh                 # fastp QC + trimming, MultiQC
 │   ├── 02_index.sh                   # Salmon transcriptome index
 │   ├── 03_quant.sh                   # Salmon quantification (gene level)
-│   ├── run_pipeline.sh               # runs 01 → 03 in order
+│   ├── run_pipeline.sh               # runs 00_setup → 01_qc_trim → 02_index → 03_quant
 │   └── lib_common.sh / state.py      # shared helpers + progress tracking
 ├── data/
 │   ├── metadata/                     # sample sheet + GEO metadata (small, tracked)
@@ -90,13 +90,15 @@ bash scripts/00_setup.sh
 
 ## Running the analysis
 
-### Option A — Reproduce the analysis from the provided results (fast)
+### Option A — Reproduce the downstream analysis from the provided tables (fast)
 
-The intermediate tables needed to re-run the statistical analysis are included under
-`results/` and `data/`. Open the notebook, select the **Python (bsb)** kernel, and run all
-cells: the differential expression, enrichment and network sections regenerate in a few
-minutes. The heavy upstream steps (quantification) are skipped automatically because their
-outputs already exist.
+The differential expression, enrichment and network analyses can be reproduced directly from
+the count matrix and result tables included under `results/` and `data/`. Open the notebook,
+select the **Python (bsb)** kernel, and run all cells: these sections regenerate in a few
+minutes. The heavy upstream steps (FASTQ preprocessing and Salmon quantification) are **not**
+re-run here — they require the large untracked input files (see *Data* below); their
+quantification cells simply report the samples they would process. Use *Option B* to rebuild
+those inputs from raw reads.
 
 ```bash
 jupyter lab   # then open notebooks/BSB_CD4_MS_assignment.ipynb
@@ -130,14 +132,17 @@ jupyter lab   # then open notebooks/BSB_CD4_MS_assignment.ipynb
    gzip data/raw_fastq/SRR10089589_*.fastq
    ```
 
-2. **Download the reference** (GENCODE v28, human) into `data/reference/` — or let the
-   notebook fetch it automatically the first time it is needed. Source:
+2. **Provide the reference** (GENCODE v28, human) in `data/reference/` **before** running the
+   pipeline, because `02_index.sh` needs the transcript FASTA and `03_quant.sh` needs the
+   transcript-to-gene map. The small maps (`tx2gene.tsv`, `gene_annotation.tsv`) are tracked in
+   the repository; download the FASTA/GTF (or run the notebook's reference cell once, which
+   fetches them) from
    [https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28](https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28/)
    (`gencode.v28.transcripts.fa.gz` and `gencode.v28.annotation.gtf.gz`).
 
 3. **Run the pipeline** (each step is idempotent and can be safely resumed):
    ```bash
-   bash scripts/run_pipeline.sh      # QC/trim → index → quantification
+   bash scripts/run_pipeline.sh      # env check → QC/trim → index → quantification
    ```
 
 4. **Open the notebook** and run all cells for DEA, enrichment and the network analysis.

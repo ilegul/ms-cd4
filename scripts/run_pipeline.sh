@@ -11,4 +11,4 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 ./02_index.sh
 ./03_quant.sh
 
-echo "[$(date '+%Y-%m-%d %H:%M:%S')] === Full pipeline complete ==="
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] === Preprocessing and quantification complete ==="

@@ -10,13 +10,23 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 source ./lib_common.sh
 
 SAMPLES_CSV="$DATA_DIR/metadata/samples.csv"
-INDEX_DIR_NAME="salmon_index_v112_utf8"
+# Match the index directory 02_index.sh built (transcriptome-only by default, decoy if BUILD_DECOY=1).
+if [ "${BUILD_DECOY:-0}" = "1" ]; then
+    INDEX_DIR_NAME="salmon_index_v112_decoy"
+else
+    INDEX_DIR_NAME="salmon_index_v112_utf8"
+fi
 GENE_MAP="reference/tx2gene.tsv"
 
-log "=== Step 3: Salmon quant (gene-level, from trimmed reads) ==="
+log "=== Step 3: Salmon quant (gene-level, from trimmed reads; index=$INDEX_DIR_NAME) ==="
 
 if [ ! -f "$DATA_DIR/$INDEX_DIR_NAME/info.json" ]; then
     log "ERROR: index not found at data/$INDEX_DIR_NAME - run 02_index.sh first."
+    exit 1
+fi
+
+if [ ! -s "$DATA_DIR/$GENE_MAP" ]; then
+    log "ERROR: transcript-to-gene map not found at data/$GENE_MAP - required for --geneMap."
     exit 1
 fi
 
