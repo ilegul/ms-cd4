@@ -1,0 +1,6 @@
+[2026-07-16 15:51:53,869] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.35 now available!
+[2026-07-16 15:51:53,878] multiqc.core.file_search                           [INFO   ]  Search path: /project/results/qc/raw_fastqc
+[2026-07-16 15:51:53,878] multiqc.core.file_search                           [INFO   ]  Search path: /project/results/qc/trimmed_fastqc
+[2026-07-16 15:51:53,879] multiqc.core.file_search                           [INFO   ]  Search path: /project/results/qc/fastp
+[2026-07-16 15:52:02,276] multiqc.modules.fastp.fastp                        [INFO   ]  Found 8 reports
+[2026-07-16 15:52:02,707] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 16 reports

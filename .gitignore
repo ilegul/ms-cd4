@@ -37,3 +37,6 @@ logs/
 Thumbs.db
 # Word/Office temporary lock files
 ~$*
+
+# Excluded outlier sample (heavy reads, kept locally only)
+data/_excluded_*/
