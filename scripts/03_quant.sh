@@ -3,8 +3,8 @@
 # one sample at a time (RAM-conscious). Idempotent: skips a sample whose
 # quant.genes.sf already exists and is marked done in pipeline_state.json.
 #
-# This is the long-running step (~60-70 min/sample observed previously) -
-# run it in the background and watch logs/03_quant_<sample>.log per sample.
+# This is the long-running step (~60-70 min/sample) - run it in the
+# background and watch logs/03_quant_<sample>.log per sample.
 set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")"
 source ./lib_common.sh

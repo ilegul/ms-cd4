@@ -49,7 +49,6 @@ MS_CD4/
 │   └── network/                      # STRING edges, centralities, communities, .graphml
 ├── Dockerfile                        # salmon + fastp + MultiQC image
 ├── requirements.txt                  # Python analysis dependencies
-├── BSB_CD4_MS_Exam_Report.docx       # written report
 └── README.md
 ```
 
@@ -106,9 +105,15 @@ jupyter lab   # then open notebooks/BSB_CD4_MS_assignment.ipynb
 ### Option B — Full pipeline from raw reads
 
 1. **Download the 8 FASTQ files.** The runs are listed in `data/metadata/samples.csv`
-   (column `sample_id`: `SRR10089413, SRR10089428, SRR10089431, SRR10089503, SRR10089583,
+   (column `sample_id`: `SRR10089413, SRR10089428, SRR10089431, SRR10089494, SRR10089583,
    SRR10089589, SRR10089616, SRR10089670`). Download the paired-end reads into
    `data/raw_fastq/`, named `<SRR>_1.fastq.gz` and `<SRR>_2.fastq.gz`.
+
+   > `samples.csv` holds the final cohort. Sample-level QC on the quantified counts
+   > (notebook Task 2b) showed that one initially-selected run had a myeloid/monocyte-like
+   > expression profile incompatible with the other CD4+ libraries, so it was replaced by
+   > another eligible age- and sex-matched CD4+ run before differential expression; the
+   > screening that motivated this is kept under `results/qc/outlier/`.
 
    *Option 1 — ENA (direct download, no tools needed).* Search each accession at
    [https://www.ebi.ac.uk/ena/browser](https://www.ebi.ac.uk/ena/browser/text-search?query=SRR10089589)

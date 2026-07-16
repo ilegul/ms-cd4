@@ -2,7 +2,7 @@
 # Shared helpers for the resumable BSB pipeline scripts.
 # Run from Git Bash (no WSL needed) - all heavy tools execute inside the
 # pre-built `mscd4-bioinfo:latest` Docker image (salmon 1.12.0, fastp 0.20.1,
-# multiqc 1.25.2), which is the exact toolset the earlier quant runs used.
+# multiqc 1.25.2), the single toolset used for all quantification.
 set -euo pipefail
 
 PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
