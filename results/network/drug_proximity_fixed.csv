@@ -1,7 +1,0 @@
-drug,curated,mapped,connected,d_closest,null_mean,null_sd,z,status,network
-Betaferon,2,2,2,2.0,2.231,0.436,-0.53,not significant,physical score>=400
-Tecfidera,4,4,4,2.5,2.466,0.293,0.12,not significant,physical score>=400
-Ocrevus,1,1,1,2.0,2.725,0.569,-1.27,not significant [single target],physical score>=400
-Betaferon,2,2,2,2.0,2.714,0.611,-1.17,not significant,physical score>=700 (sensitivity)
-Tecfidera,4,3,3,2.333,2.714,0.443,-0.86,not significant,physical score>=700 (sensitivity)
-Ocrevus,1,1,1,3.0,3.722,1.059,-0.68,not significant [single target],physical score>=700 (sensitivity)

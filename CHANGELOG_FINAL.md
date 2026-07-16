@@ -44,6 +44,12 @@ The graded deliverable is `notebooks/BSB_CD4_MS_assignment.ipynb` plus `results/
 - Corrected DrugBank target roles (KEAP1 = regulatory adaptor not enzyme; NFE2L2 = downstream
   transcription factor; GAPDH = literature-supported); removed draft "verify against your DrugBank"
   notes. Added a disease-drug overlap table.
+- Extended Part 2 with a drug-target -> community mapping: for each mapped target, the nearest
+  disease-module node on the fixed interactome and its Leiden community (`drug_target_communities.csv`),
+  plus the connecting shortest paths as a small Cytoscape network (`drug_target_paths.graphml`).
+- Removed obsolete/superseded network files (`ppi_network_with_drugs.graphml`,
+  `string_edges_with_drugs.tsv`, `drug_proximity_fixed.csv`, `_fixed_interactome_summary.json`);
+  `ppi_network.graphml` with node attributes is the single PPI export.
 
 ## QC / FastQC before-after
 - Added FastQC on trimmed reads for all 8 samples and a before/after MultiQC report
