@@ -1,0 +1,9 @@
+sample_id,gsm,run_accession,condition,sex,age,cell_type,treatment_status,donor_id,timepoint,baseline_status,sequencing_pool,library_batch,lane,run_date
+SRR10089589,GSM4071856,SRR10089589,HC,F,31,CD4+ T cells,healthy control,83317a,NA,baseline,NA,NA,NA,2021-01-01 11:59:47
+SRR10089616,GSM4071883,SRR10089616,HC,F,32,CD4+ T cells,healthy control,84717a,NA,baseline,NA,NA,NA,2021-01-01 11:59:48
+SRR10089583,GSM4071850,SRR10089583,HC,M,32,CD4+ T cells,healthy control,83117a,NA,baseline,NA,NA,NA,2021-01-01 11:59:47
+SRR10089670,GSM4071937,SRR10089670,HC,M,32,CD4+ T cells,healthy control,87417a,NA,baseline,NA,NA,NA,2021-01-01 11:59:50
+SRR10089428,GSM4071695,SRR10089428,MS,F,32,CD4+ T cells,treatment-naive,66415a,NA,baseline,NA,NA,NA,2021-01-01 11:59:42
+SRR10089494,GSM4071761,SRR10089494,MS,F,32,CD4+ T cells,treatment-naive,74116a,NA,baseline,NA,NA,NA,2021-01-01 11:59:44
+SRR10089413,GSM4071680,SRR10089413,MS,M,32,CD4+ T cells,treatment-naive,65415a,NA,baseline,NA,NA,NA,2021-01-01 11:59:42
+SRR10089431,GSM4071698,SRR10089431,MS,M,32,CD4+ T cells,treatment-naive,66915a,NA,baseline,NA,NA,NA,2021-01-01 11:59:42

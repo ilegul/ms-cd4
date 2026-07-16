@@ -40,3 +40,6 @@ Thumbs.db
 
 # Excluded outlier sample (heavy reads, kept locally only)
 data/_excluded_*/
+
+# STRING precomputed interactome (downloaded on demand by the notebook)
+data/reference/9606.protein.*.txt.gz

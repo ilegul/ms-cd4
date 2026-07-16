@@ -1,46 +1,160 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="double"/>
-<graph edgedefault="undirected"><node id="TNFSF9"/>
-<node id="XCL1"/>
-<node id="CX3CR1"/>
-<node id="LILRA4"/>
-<node id="MATK"/>
-<node id="CADM1"/>
-<node id="CXCR2"/>
-<node id="CCL4"/>
-<node id="TNFRSF12A"/>
-<node id="NCAM1"/>
-<node id="SPTBN5"/>
-<node id="NTRK1"/>
-<node id="RGS9"/>
-<node id="ITGAM"/>
-<node id="ITGA2"/>
-<node id="TNFSF11"/>
-<node id="CD244"/>
-<node id="PLCG2"/>
-<node id="KLRK1"/>
-<node id="CXCR1"/>
-<node id="LAMB3"/>
-<node id="CCL3L1"/>
-<node id="KLRC2"/>
-<node id="FCGR3A"/>
-<node id="TNF"/>
-<node id="CD151"/>
-<node id="LYN"/>
-<node id="ADRA1A"/>
-<node id="GZMB"/>
-<node id="GNLY"/>
+<graph edgedefault="undirected"><node id="PLCG2"/>
 <node id="SKAP2"/>
-<node id="FCER1A"/>
-<node id="SH2D1B"/>
-<node id="FASLG"/>
-<node id="XCL2"/>
-<node id="GNAI1"/>
 <node id="KCNQ2"/>
+<node id="TNFRSF12A"/>
+<node id="KLRK1"/>
+<node id="CD244"/>
+<node id="GNAI1"/>
+<node id="CADM1"/>
+<node id="ITGA2"/>
 <node id="GAB3"/>
+<node id="CCL4"/>
+<node id="KLRC2"/>
+<node id="RGS9"/>
+<node id="SH2D1B"/>
+<node id="CD151"/>
+<node id="ADRA1A"/>
+<node id="LAMB3"/>
+<node id="LYN"/>
+<node id="MATK"/>
+<node id="TNFSF9"/>
+<node id="FCGR3A"/>
+<node id="TNFSF11"/>
+<node id="GNLY"/>
+<node id="XCL1"/>
+<node id="CCL3L1"/>
+<node id="GZMB"/>
+<node id="NTRK1"/>
+<node id="LILRA4"/>
 <node id="FGR"/>
+<node id="FASLG"/>
+<node id="SPTBN5"/>
+<node id="XCL2"/>
+<node id="NCAM1"/>
+<node id="CXCR2"/>
+<node id="CXCR1"/>
+<node id="CX3CR1"/>
+<node id="ITGAM"/>
+<node id="FCER1A"/>
+<node id="TNF"/>
+<edge source="PLCG2" target="KLRK1">
+  <data key="d0">0.499</data>
+</edge>
+<edge source="PLCG2" target="SH2D1B">
+  <data key="d0">0.405</data>
+</edge>
+<edge source="PLCG2" target="FCGR3A">
+  <data key="d0">0.499</data>
+</edge>
+<edge source="PLCG2" target="CD244">
+  <data key="d0">0.405</data>
+</edge>
+<edge source="PLCG2" target="KLRC2">
+  <data key="d0">0.499</data>
+</edge>
+<edge source="PLCG2" target="GAB3">
+  <data key="d0">0.499</data>
+</edge>
+<edge source="PLCG2" target="LYN">
+  <data key="d0">0.91</data>
+</edge>
+<edge source="SKAP2" target="LYN">
+  <data key="d0">0.457</data>
+</edge>
+<edge source="KCNQ2" target="SPTBN5">
+  <data key="d0">0.499</data>
+</edge>
+<edge source="TNFRSF12A" target="TNFSF11">
+  <data key="d0">0.499</data>
+</edge>
+<edge source="TNFRSF12A" target="TNF">
+  <data key="d0">0.519</data>
+</edge>
+<edge source="KLRK1" target="FCGR3A">
+  <data key="d0">0.613</data>
+</edge>
+<edge source="KLRK1" target="KLRC2">
+  <data key="d0">0.719</data>
+</edge>
+<edge source="CD244" target="SH2D1B">
+  <data key="d0">0.683</data>
+</edge>
+<edge source="GNAI1" target="RGS9">
+  <data key="d0">0.598</data>
+</edge>
+<edge source="GNAI1" target="CXCR2">
+  <data key="d0">0.9</data>
+</edge>
+<edge source="GNAI1" target="CX3CR1">
+  <data key="d0">0.9</data>
+</edge>
+<edge source="CADM1" target="NCAM1">
+  <data key="d0">0.514</data>
+</edge>
+<edge source="ITGA2" target="LAMB3">
+  <data key="d0">0.512</data>
+</edge>
+<edge source="ITGA2" target="ITGAM">
+  <data key="d0">0.54</data>
+</edge>
+<edge source="ITGA2" target="LYN">
+  <data key="d0">0.673</data>
+</edge>
+<edge source="GAB3" target="LYN">
+  <data key="d0">0.716</data>
+</edge>
+<edge source="CCL4" target="CXCR1">
+  <data key="d0">0.727</data>
+</edge>
+<edge source="CCL4" target="CXCR2">
+  <data key="d0">0.945</data>
+</edge>
+<edge source="CCL4" target="CX3CR1">
+  <data key="d0">0.651</data>
+</edge>
+<edge source="CD151" target="LAMB3">
+  <data key="d0">0.499</data>
+</edge>
+<edge source="ADRA1A" target="CXCR2">
+  <data key="d0">0.442</data>
+</edge>
+<edge source="LYN" target="GZMB">
+  <data key="d0">0.556</data>
+</edge>
+<edge source="LYN" target="FASLG">
+  <data key="d0">0.42</data>
+</edge>
+<edge source="LYN" target="FGR">
+  <data key="d0">0.542</data>
+</edge>
+<edge source="LYN" target="MATK">
+  <data key="d0">0.509</data>
+</edge>
+<edge source="MATK" target="NTRK1">
+  <data key="d0">0.926</data>
+</edge>
 <edge source="TNFSF9" target="TNF">
   <data key="d0">0.578</data>
+</edge>
+<edge source="FCGR3A" target="LILRA4">
+  <data key="d0">0.9</data>
+</edge>
+<edge source="FCGR3A" target="CXCR1">
+  <data key="d0">0.493</data>
+</edge>
+<edge source="FCGR3A" target="NCAM1">
+  <data key="d0">0.765</data>
+</edge>
+<edge source="TNFSF11" target="TNF">
+  <data key="d0">0.724</data>
+</edge>
+<edge source="GNLY" target="GZMB">
+  <data key="d0">0.812</data>
+</edge>
+<edge source="GNLY" target="FASLG">
+  <data key="d0">0.659</data>
 </edge>
 <edge source="XCL1" target="CXCR1">
   <data key="d0">0.663</data>
@@ -54,154 +168,40 @@
 <edge source="XCL1" target="XCL2">
   <data key="d0">0.908</data>
 </edge>
-<edge source="CX3CR1" target="CXCR1">
-  <data key="d0">0.479</data>
-</edge>
-<edge source="CX3CR1" target="XCL2">
-  <data key="d0">0.65</data>
-</edge>
-<edge source="CX3CR1" target="CCL4">
-  <data key="d0">0.651</data>
-</edge>
-<edge source="CX3CR1" target="CCL3L1">
-  <data key="d0">0.754</data>
-</edge>
-<edge source="CX3CR1" target="GNAI1">
-  <data key="d0">0.9</data>
-</edge>
-<edge source="LILRA4" target="FCER1A">
-  <data key="d0">0.447</data>
-</edge>
-<edge source="LILRA4" target="FCGR3A">
-  <data key="d0">0.9</data>
-</edge>
-<edge source="MATK" target="LYN">
-  <data key="d0">0.509</data>
-</edge>
-<edge source="MATK" target="NTRK1">
-  <data key="d0">0.926</data>
-</edge>
-<edge source="CADM1" target="NCAM1">
-  <data key="d0">0.514</data>
-</edge>
-<edge source="CXCR2" target="CXCR1">
-  <data key="d0">0.997</data>
-</edge>
-<edge source="CXCR2" target="ADRA1A">
-  <data key="d0">0.442</data>
-</edge>
-<edge source="CXCR2" target="XCL2">
-  <data key="d0">0.65</data>
-</edge>
-<edge source="CXCR2" target="CCL3L1">
+<edge source="CCL3L1" target="CXCR1">
   <data key="d0">0.762</data>
 </edge>
-<edge source="CXCR2" target="GNAI1">
-  <data key="d0">0.9</data>
+<edge source="CCL3L1" target="CXCR2">
+  <data key="d0">0.762</data>
 </edge>
-<edge source="CXCR2" target="CCL4">
-  <data key="d0">0.945</data>
-</edge>
-<edge source="CCL4" target="CXCR1">
-  <data key="d0">0.727</data>
-</edge>
-<edge source="TNFRSF12A" target="TNFSF11">
-  <data key="d0">0.499</data>
-</edge>
-<edge source="TNFRSF12A" target="TNF">
-  <data key="d0">0.519</data>
-</edge>
-<edge source="NCAM1" target="SPTBN5">
-  <data key="d0">0.4</data>
-</edge>
-<edge source="NCAM1" target="FCGR3A">
-  <data key="d0">0.765</data>
-</edge>
-<edge source="SPTBN5" target="KCNQ2">
-  <data key="d0">0.499</data>
+<edge source="CCL3L1" target="CX3CR1">
+  <data key="d0">0.754</data>
 </edge>
 <edge source="NTRK1" target="TNF">
   <data key="d0">0.41</data>
 </edge>
-<edge source="RGS9" target="GNAI1">
-  <data key="d0">0.598</data>
+<edge source="LILRA4" target="FCER1A">
+  <data key="d0">0.447</data>
 </edge>
-<edge source="ITGAM" target="ITGA2">
-  <data key="d0">0.54</data>
-</edge>
-<edge source="ITGA2" target="LAMB3">
-  <data key="d0">0.512</data>
-</edge>
-<edge source="ITGA2" target="LYN">
-  <data key="d0">0.673</data>
-</edge>
-<edge source="TNFSF11" target="TNF">
-  <data key="d0">0.724</data>
-</edge>
-<edge source="CD244" target="SH2D1B">
-  <data key="d0">0.683</data>
-</edge>
-<edge source="CD244" target="PLCG2">
-  <data key="d0">0.405</data>
-</edge>
-<edge source="PLCG2" target="KLRK1">
-  <data key="d0">0.499</data>
-</edge>
-<edge source="PLCG2" target="SH2D1B">
-  <data key="d0">0.405</data>
-</edge>
-<edge source="PLCG2" target="FCGR3A">
-  <data key="d0">0.499</data>
-</edge>
-<edge source="PLCG2" target="KLRC2">
-  <data key="d0">0.499</data>
-</edge>
-<edge source="PLCG2" target="GAB3">
-  <data key="d0">0.499</data>
-</edge>
-<edge source="PLCG2" target="LYN">
-  <data key="d0">0.91</data>
-</edge>
-<edge source="KLRK1" target="FCGR3A">
-  <data key="d0">0.613</data>
-</edge>
-<edge source="KLRK1" target="KLRC2">
-  <data key="d0">0.719</data>
-</edge>
-<edge source="CXCR1" target="FCGR3A">
-  <data key="d0">0.493</data>
-</edge>
-<edge source="CXCR1" target="XCL2">
-  <data key="d0">0.65</data>
-</edge>
-<edge source="CXCR1" target="CCL3L1">
-  <data key="d0">0.762</data>
-</edge>
-<edge source="LAMB3" target="CD151">
-  <data key="d0">0.499</data>
-</edge>
-<edge source="TNF" target="FASLG">
+<edge source="FASLG" target="TNF">
   <data key="d0">0.976</data>
 </edge>
-<edge source="LYN" target="SKAP2">
-  <data key="d0">0.457</data>
+<edge source="SPTBN5" target="NCAM1">
+  <data key="d0">0.4</data>
 </edge>
-<edge source="LYN" target="GZMB">
-  <data key="d0">0.556</data>
+<edge source="XCL2" target="CXCR1">
+  <data key="d0">0.65</data>
 </edge>
-<edge source="LYN" target="FASLG">
-  <data key="d0">0.42</data>
+<edge source="XCL2" target="CXCR2">
+  <data key="d0">0.65</data>
 </edge>
-<edge source="LYN" target="FGR">
-  <data key="d0">0.542</data>
+<edge source="XCL2" target="CX3CR1">
+  <data key="d0">0.65</data>
 </edge>
-<edge source="LYN" target="GAB3">
-  <data key="d0">0.716</data>
+<edge source="CXCR2" target="CXCR1">
+  <data key="d0">0.997</data>
 </edge>
-<edge source="GZMB" target="GNLY">
-  <data key="d0">0.812</data>
-</edge>
-<edge source="GNLY" target="FASLG">
-  <data key="d0">0.659</data>
+<edge source="CXCR1" target="CX3CR1">
+  <data key="d0">0.479</data>
 </edge>
 </graph></graphml>

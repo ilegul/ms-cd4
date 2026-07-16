@@ -1,0 +1,32 @@
+part,requirement,file_path,status,notes
+Part1,Sample-selection table,data/metadata/samples.csv + results/qc/sample_design_audit.csv,complete,
+Part1,Initial (pre-QC) sample list,data/metadata/initial_samples_before_qc.csv,complete,includes SRR10089503
+Part1,FASTQ download method,notebook 'FASTQ download and integrity' cell,partial,documented in-notebook + gzip check; no standalone 00_download.sh with md5
+Part1,Read layout / length / QC paragraph,notebook Deliverable 1,complete,
+Part1,FastQC before/after comparison,"results/qc/{raw_fastqc,trimmed_fastqc,multiqc/multiqc_fastqc_beforeafter.html}; notebook Task 1b",complete,per-base quality & adapter before/after from fastp
+Part1,FastQC PASS/WARN/FAIL table,results/qc/fastqc_module_summary.csv,not_done,before/after shown via MultiQC instead
+Part1,Gene count matrix,results/dea/gene_counts_matrix.csv,complete,
+Part1,PCA / sample-distance heatmap,"results/dea/PCA.png, results/dea/sample_distance_heatmap.png",complete,VST-based
+Part1,Volcano plot,results/dea/volcano.png,complete,gene symbols
+Part1,Top-20 DEG table,results/dea/top20_DEGs.csv (+ top20_DEGs_protein_coding.csv),complete,padj + significant flag
+Part1,Primary DEA table,"results/dea/dea_results_full.csv, DEGs_FDR05.csv, DEGs_significant.csv",complete,
+Part1,Sex-stratified exploratory analyses,results/dea/sex_stratified/,complete,"2v2, exploratory, instructor-requested"
+Part1,Enriched-pathway table,"results/enrichment/gsea_prerank.csv, ora_*.csv",complete,
+Part1,Enrichment barplot/dotplot,results/enrichment/gsea_barplot.png,complete,
+Part1,Biological interpretation,notebook Deliverable 4,complete,
+Part1,Comparison with Kim et al.,notebook Task 5 + results/dea/neddylation_genes.csv,complete,NAE1 nominal not FDR
+Part1,Limitations section,notebook + FINAL_VALIDATION.md,complete,
+Part2,Physical PPI of FDR DEG seeds,results/network/string_edges_primary.tsv,partial,primary FDR net small; secondary exploratory kept; connector-augmented primary not built
+Part2,Mapping funnel,notebook network cell (printed),complete,
+Part2,Top 10-15 relevant nodes,results/network/centrality.csv,complete,
+Part2,Centrality tables,results/network/centrality.csv,partial,unweighted; weighted-strength not added
+Part2,Community analysis,results/network/communities.csv,complete,Leiden; count from output
+Part2,Community vs Part1 enrichment,notebook community-enrichment cell,complete,
+Part2,Curated drug target table,results/network/drug_targets_documented.csv,complete,roles corrected
+Part2,Proximity per drug,results/network/drug_proximity.csv (fixed interactome),complete,all 3 drugs; none significant; NA rule applied
+Part2,Disease-drug overlap,results/network/disease_drug_overlap.csv,complete,
+Part2,Cytoscape node table,results/network/node_info.tsv,in_progress,generated in final pass
+Part2,Cytoscape edge table,results/network/string_edges*.tsv,complete,
+Part2,GraphML files,results/network/ppi_network.graphml,complete,
+Repro,CHANGELOG / validation / index,"CHANGELOG_FINAL.md, FINAL_VALIDATION.md, results/final_deliverables_index.csv",complete,
+Repro,Written report (.docx),Relazione_esame_BSB_CD4_MS.docx,not_current,generator has an unresolved escaping bug; notebook is authoritative

@@ -1,4 +1,7 @@
-drug,targets,n_targets_in_net,d_closest,z_score,null_mean
-Betaferon,"IFNAR1,IFNAR2",2,2.0,2.89,1.192
-Tecfidera,"GAPDH,HCAR2,KEAP1,NFE2L2",1,2.0,3.09,1.095
-Ocrevus,MS4A1,1,2.0,1.72,1.164
+drug,curated,mapped,connected,d_closest,null_mean,null_sd,z,status,network
+Betaferon,2,2,2,2.0,2.231,0.436,-0.53,not significant,physical score>=400
+Tecfidera,4,4,4,2.5,2.484,0.312,0.05,not significant,physical score>=400
+Ocrevus,1,1,1,2.0,2.724,0.569,-1.27,not significant [single-target drug],physical score>=400
+Betaferon,2,2,2,2.0,2.717,0.61,-1.18,not significant,physical score>=700 (sensitivity)
+Tecfidera,4,3,3,2.333,2.696,0.433,-0.84,not significant,physical score>=700 (sensitivity)
+Ocrevus,1,1,1,3.0,3.721,1.061,-0.68,not significant [single-target drug],physical score>=700 (sensitivity)
