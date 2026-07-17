@@ -27,6 +27,6 @@ Part2,Disease-drug overlap,results/network/disease_drug_overlap.csv
 Part2,Drug-target to community mapping,results/network/drug_target_communities.csv
 Part2,Drug-target shortest-path network,results/network/drug_target_paths.graphml
 Part2,Cytoscape node attribute table,results/network/node_info.tsv
-Part2,PPI network for Cytoscape,results/network/ppi_network.graphml
+Part2,Exploratory PPI network for Cytoscape (relaxed threshold),results/network/ppi_network.graphml
 Repro,Environment / kernel,"requirements.txt, notebook reproducibility cell"
 Repro,Pipeline state marker,results/pipeline_state.json

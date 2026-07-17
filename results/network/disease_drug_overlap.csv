@@ -1,4 +1,4 @@
-drug,target,in_DEG_network,community,is_disease_module
+drug,target,in_exploratory_network,community,is_disease_module
 Betaferon,IFNAR1,False,,False
 Betaferon,IFNAR2,False,,False
 Tecfidera,GAPDH,False,,False
