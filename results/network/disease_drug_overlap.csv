@@ -1,8 +1,6 @@
 drug,target,in_exploratory_network,community,is_disease_module
 Betaferon,IFNAR1,False,,False
 Betaferon,IFNAR2,False,,False
-Tecfidera,GAPDH,False,,False
 Tecfidera,HCAR2,False,,False
 Tecfidera,KEAP1,False,,False
-Tecfidera,NFE2L2,False,,False
 Ocrevus,MS4A1,False,,False
