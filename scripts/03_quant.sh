@@ -30,7 +30,7 @@ if [ ! -s "$DATA_DIR/$GENE_MAP" ]; then
     exit 1
 fi
 
-tail -n +2 "$SAMPLES_CSV" | while IFS=',' read -r sample_id label gsm condition sex age cell_type fastq_1 fastq_2; do
+tail -n +2 "$SAMPLES_CSV" | while IFS=',' read -r sample_id label gsm condition sex age cell_type fastq_1 fastq_2 strandedness; do
     r1="$DATA_DIR/fastq_trimmed/${sample_id}_1.trimmed.fastq.gz"
     r2="$DATA_DIR/fastq_trimmed/${sample_id}_2.trimmed.fastq.gz"
     quant_out="$DATA_DIR/salmon_quants/${sample_id}"

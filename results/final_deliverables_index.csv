@@ -6,13 +6,15 @@ Part1,FastQC before/after comparison,"results/qc/raw_fastqc/, results/qc/trimmed
 Part1,QC summary tables,"results/qc/qc_summary.csv, results/qc/adapter_evidence.csv, results/qc/mapping_rate_raw_vs_trimmed.csv"
 Part1,Sample-level QC / outlier screening,"results/qc/outlier/, notebook Task 2b"
 Part1,Gene count matrix,results/dea/gene_counts_matrix.csv
+Part1,Quantification QC (biotype / rRNA fraction),notebook quantification-QC cell
 Part1,PCA / sample-distance heatmap,"results/dea/PCA.png, results/dea/sample_distance_heatmap.png"
 Part1,Volcano plot,results/dea/volcano.png
+Part1,MA plot (normalization diagnostic),results/dea/MA_plot.png
 Part1,Top-20 DEG tables,"results/dea/top20_DEGs.csv, results/dea/top20_DEGs_protein_coding.csv"
 Part1,Differential expression tables,"results/dea/dea_results_full.csv, results/dea/DEGs_FDR05.csv, results/dea/DEGs_significant.csv"
 Part1,Sex-stratified exploratory analyses,results/dea/sex_stratified/
-Part1,Enriched-pathway tables,"results/enrichment/gsea_prerank.csv, results/enrichment/ora_up.csv, results/enrichment/ora_down.csv"
-Part1,Enrichment plots,"results/enrichment/gsea_barplot.png, results/enrichment/ora_dotplot_up-regulated DEGs.png, results/enrichment/ora_dotplot_down-regulated DEGs.png"
+Part1,Enriched-pathway tables,"results/enrichment/gsea_prerank.csv, results/enrichment/ora_down.csv (up-set <5 after gene-list cleaning -> ORA on down only)"
+Part1,Enrichment plots,"results/enrichment/gsea_barplot.png, results/enrichment/ora_dotplot_down-regulated DEGs.png"
 Part1,Biological interpretation,notebook Deliverable 4
 Part1,Comparison with Kim et al.,"notebook Task 5, results/dea/neddylation_genes.csv"
 Part1,Limitations,notebook Limitations markdown cell

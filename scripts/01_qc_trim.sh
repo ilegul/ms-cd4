@@ -12,7 +12,7 @@ mkdir -p "$FASTP_QC_DIR" "$DATA_DIR/fastq_trimmed"
 
 log "=== Step 1: fastp QC/trim ==="
 
-tail -n +2 "$SAMPLES_CSV" | while IFS=',' read -r sample_id label gsm condition sex age cell_type fastq_1 fastq_2; do
+tail -n +2 "$SAMPLES_CSV" | while IFS=',' read -r sample_id label gsm condition sex age cell_type fastq_1 fastq_2 strandedness; do
     json_host="$FASTP_QC_DIR/${sample_id}.fastp.json"
 
     if is_done "fastp" "$sample_id" && [ -s "$json_host" ] \
