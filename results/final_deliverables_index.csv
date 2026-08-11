@@ -32,8 +32,8 @@ Part2,Relaxed sensitivity PPI network for Cytoscape,results/network/ppi_network.
 Repro,Environment / kernel,"requirements.txt, notebook reproducibility cell"
 Repro,Pipeline state marker,results/pipeline_state.json
 Part1,Up-/down-regulated DEG exports,"results/dea/DEGs_upregulated.csv, results/dea/DEGs_downregulated.csv"
-Part1,Sex-stratified DEA (Female/Male: table/top20/volcano/nominal up-down),results/dea/sex_stratified/
 Part2,Primary DEG PPI (biotype-aware; incl. isolates),results/network/ppi_primary_network.graphml
 Part2,Primary centrality / communities,"results/network/centrality_primary.csv, results/network/communities_primary.csv"
 Part2,STRING confidence sensitivity (score>=400 vs >=700),results/network/string_confidence_sensitivity.csv
 Part2,DrugBank drug-target table,results/network/drug_targets_drugbank.csv
+Part2,PPI construction sensitivity (FDR<0.10 vs primary FDR<0.05),results/network/ppi_fdr_threshold_sensitivity.csv
