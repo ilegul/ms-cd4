@@ -29,6 +29,3 @@ requests==2.34.2
 ipykernel==7.3.0
 jupyterlab==4.6.1
 papermill==2.7.0
-
-# --- Reporting ---
-python-docx==1.2.0
