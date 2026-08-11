@@ -5,8 +5,8 @@ SRR10089428_1	SRR10089428_1.fastq.gz	Conventional base calls	Sanger / Illumina 1
 SRR10089428_2	SRR10089428_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	82954474.0	12.5 Gbp	0.0	151.0	55.0	41.41418383794311	151.0	151	pass	pass	pass	fail	fail	pass	pass	fail	pass	fail
 SRR10089431_1	SRR10089431_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	98851090.0	14.9 Gbp	0.0	151.0	54.0	40.69934427031706	151.0	151	pass	pass	pass	warn	fail	pass	pass	fail	warn	fail
 SRR10089431_2	SRR10089431_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	98851090.0	14.9 Gbp	0.0	151.0	55.0	41.094934133447666	151.0	151	pass	pass	pass	fail	fail	pass	pass	fail	warn	fail
-SRR10089494_1	SRR10089494_1.trimmed.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	90337141.0	13 Gbp	0.0	15-151	53.0	44.230728499297996	144.35505468343302	151	pass	pass	pass	warn	fail	pass	warn	fail	warn	pass
-SRR10089494_2	SRR10089494_2.trimmed.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	90337141.0	13 Gbp	0.0	31-151	53.0	43.69550154016652	144.50779858087384	151	pass	pass	pass	fail	fail	pass	warn	fail	pass	pass
+SRR10089494_1	SRR10089494_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	91572154.0	13.8 Gbp	0.0	151.0	53.0	44.217702640097606	151.0	151	pass	pass	pass	warn	fail	pass	pass	fail	warn	fail
+SRR10089494_2	SRR10089494_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	91572154.0	13.8 Gbp	0.0	151.0	54.0	43.97847109867196	151.0	151	pass	pass	pass	fail	fail	pass	pass	fail	pass	fail
 SRR10089583_1	SRR10089583_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	74223863.0	11.2 Gbp	0.0	151.0	56.0	40.88300008679621	151.0	151	pass	pass	pass	warn	fail	pass	pass	fail	warn	fail
 SRR10089583_2	SRR10089583_2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	74223863.0	11.2 Gbp	0.0	151.0	57.0	41.76903608133918	151.0	151	pass	pass	pass	fail	fail	pass	pass	fail	warn	fail
 SRR10089589_1	SRR10089589_1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	95571633.0	14.4 Gbp	0.0	151.0	58.0	35.74097083898551	151.0	151	pass	pass	pass	warn	fail	pass	pass	fail	warn	fail

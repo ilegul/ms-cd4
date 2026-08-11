@@ -1,8 +1,10 @@
-drug,targets,mapped,d_closest,null_mean,null_sd,z,status,network
-Betaferon,2,2,2.0,2.062,0.344,-0.18,not significant,physical score>=400
-Tecfidera,2,2,3.0,2.546,0.44,1.03,not significant,physical score>=400
-Ocrevus,1,1,2.0,2.528,0.541,-0.98,not significant [single target - z not comparable],physical score>=400
-Tecfidera (expanded set),4,4,2.5,2.241,0.255,1.01,not significant,physical score>=400
-Betaferon,2,2,2.0,2.401,0.536,-0.75,not significant,physical score>=700 (sensitivity)
-Tecfidera,2,1,2.0,2.042,0.617,-0.07,not significant [single target - z not comparable],physical score>=700 (sensitivity)
-Ocrevus,1,1,3.0,3.578,1.02,-0.57,not significant [single target - z not comparable],physical score>=700 (sensitivity)
+drug,targets,mapped,in_module,d_closest,null_mean,null_sd,z,status,network
+Betaferon,2,2,-,3.0,2.222,0.417,1.87,not significant,PRIMARY: DrugBank targets vs primary DEG module (score>=400)
+Tecfidera,2,2,-,2.0,1.864,0.36,0.38,not significant,PRIMARY: DrugBank targets vs primary DEG module (score>=400)
+Ocrevus,1,1,-,3.0,2.697,0.593,0.51,not significant,PRIMARY: DrugBank targets vs primary DEG module (score>=400)
+Betaferon,2,2,-,3.0,2.756,0.531,0.46,not significant,"sensitivity: DrugBank targets, score>=700"
+Tecfidera,2,2,-,2.5,2.188,0.414,0.76,not significant,"sensitivity: DrugBank targets, score>=700"
+Ocrevus,1,1,-,4.0,3.803,1.027,0.19,not significant,"sensitivity: DrugBank targets, score>=700"
+Betaferon,2,2,-,2.0,2.039,0.343,-0.11,not significant,sensitivity: DrugBank targets vs relaxed module
+Tecfidera,2,2,-,2.0,1.804,0.302,0.65,not significant,sensitivity: DrugBank targets vs relaxed module
+Ocrevus,1,1,-,2.0,2.551,0.556,-0.99,not significant,sensitivity: DrugBank targets vs relaxed module

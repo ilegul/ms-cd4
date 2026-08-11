@@ -2,7 +2,7 @@
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d10" for="edge" attr.name="weight" attr.type="double"/>
 <key id="d9" for="node" attr.name="drug_target_for" attr.type="string"/>
 <key id="d8" for="node" attr.name="is_disease_module" attr.type="boolean"/>
-<key id="d7" for="node" attr.name="centrality_score" attr.type="double"/>
+<key id="d7" for="node" attr.name="consensus_centrality_rank" attr.type="double"/>
 <key id="d6" for="node" attr.name="eigenvector" attr.type="double"/>
 <key id="d5" for="node" attr.name="closeness" attr.type="double"/>
 <key id="d4" for="node" attr.name="betweenness" attr.type="double"/>
@@ -36,7 +36,6 @@
 </node>
 <node id="CCL3L1">
   <data key="d0">5</data>
-  <data key="d1">0.0</data>
   <data key="d2">NA</data>
   <data key="d3">3</data>
   <data key="d4">0.0005</data>

@@ -15,26 +15,20 @@
 <node id="GRAP2">
   <data key="d0">connector</data>
 </node>
-<node id="HCAR2">
-  <data key="d0">drug_target</data>
-</node>
-<node id="FFAR2">
-  <data key="d0">connector</data>
-</node>
-<node id="FFAR1">
-  <data key="d0">connector</data>
-</node>
-<node id="GNAQ">
-  <data key="d0">connector</data>
-</node>
-<node id="GNAI1">
-  <data key="d0">disease_module</data>
-</node>
 <node id="KEAP1">
   <data key="d0">drug_target</data>
 </node>
 <node id="EGFR">
   <data key="d0">connector</data>
+</node>
+<node id="RELA">
+  <data key="d0">drug_target</data>
+</node>
+<node id="CCL2">
+  <data key="d0">connector</data>
+</node>
+<node id="CXCR1">
+  <data key="d0">disease_module</data>
 </node>
 <node id="MS4A1">
   <data key="d0">drug_target</data>
@@ -48,10 +42,8 @@
 <edge source="PLCG2" target="EGFR"/>
 <edge source="PLCG2" target="FCER1G"/>
 <edge source="IFNAR2" target="GRAP2"/>
-<edge source="HCAR2" target="FFAR2"/>
-<edge source="FFAR2" target="FFAR1"/>
-<edge source="FFAR1" target="GNAQ"/>
-<edge source="GNAQ" target="GNAI1"/>
 <edge source="KEAP1" target="EGFR"/>
+<edge source="RELA" target="CCL2"/>
+<edge source="CCL2" target="CXCR1"/>
 <edge source="MS4A1" target="FCER1G"/>
 </graph></graphml>

@@ -1,6 +1,6 @@
-drug,target,in_exploratory_network,community,is_disease_module
+drug,target,in_relaxed_network,community,is_disease_module
 Betaferon,IFNAR1,False,,False
 Betaferon,IFNAR2,False,,False
-Tecfidera,HCAR2,False,,False
 Tecfidera,KEAP1,False,,False
+Tecfidera,RELA,False,,False
 Ocrevus,MS4A1,False,,False

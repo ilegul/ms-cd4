@@ -2,33 +2,37 @@ part,deliverable,file_path
 Part1,Sample-selection table,"data/metadata/samples.csv, results/qc/sample_design_audit.csv"
 Part1,Initially selected sample list (before QC replacement),data/metadata/initial_samples_before_qc.csv
 Part1,Read layout / length / QC paragraph,notebook Deliverable 1
-Part1,FastQC before/after comparison,"results/qc/raw_fastqc/, results/qc/trimmed_fastqc/, results/qc/multiqc/multiqc_fastqc_beforeafter.html"
+Part1,FastQC before/after comparison,"results/qc/raw_fastqc/, results/qc/trimmed_fastqc/, results/qc/multiqc/multiqc_fastqc_beforeafter.html, results/qc/perbase_quality_before_after.png, results/qc/adapter_trimmed_fraction.png"
 Part1,QC summary tables,"results/qc/qc_summary.csv, results/qc/adapter_evidence.csv, results/qc/mapping_rate_raw_vs_trimmed.csv"
 Part1,Sample-level QC / outlier screening,"results/qc/outlier/, notebook Task 2b"
 Part1,Gene count matrix,results/dea/gene_counts_matrix.csv
 Part1,Quantification QC (biotype / rRNA fraction),notebook quantification-QC cell
-Part1,PCA / sample-distance heatmap,"results/dea/PCA.png, results/dea/sample_distance_heatmap.png"
+Part1,PCA / sample-distance heatmap,"results/dea/PCA.png, results/dea/PCA_separate_by_sex.png, results/dea/sample_distance_heatmap.png"
 Part1,Volcano plot,results/dea/volcano.png
 Part1,MA plot (normalization diagnostic),results/dea/MA_plot.png
 Part1,Top-20 DEG tables,"results/dea/top20_DEGs.csv, results/dea/top20_DEGs_protein_coding.csv"
-Part1,Differential expression tables,"results/dea/dea_results_full.csv, results/dea/DEGs_FDR05.csv, results/dea/DEGs_significant.csv"
-Part1,Sex-stratified exploratory analyses,results/dea/sex_stratified/
-Part1,Enriched-pathway tables,"results/enrichment/gsea_prerank.csv, results/enrichment/ora_down.csv (up-set <5 after gene-list cleaning -> ORA on down only)"
-Part1,Enrichment plots,"results/enrichment/gsea_barplot.png, results/enrichment/ora_dotplot_down-regulated DEGs.png"
+Part1,Differential expression tables,"results/dea/dea_results_full.csv, results/dea/DEGs_FDR05.csv, results/dea/DEGs_FDR05_LFC1.csv"
+Part1,Enriched-pathway tables,"results/enrichment/gsea_prerank.csv, results/enrichment/ora_up.csv, results/enrichment/ora_down.csv"
+Part1,Enrichment plots,"results/enrichment/gsea_barplot.png, results/enrichment/ora_dotplot_up-regulated DEGs.png, results/enrichment/ora_dotplot_down-regulated DEGs.png"
 Part1,Biological interpretation,notebook Deliverable 4
 Part1,Comparison with Kim et al.,"notebook Task 5, results/dea/neddylation_genes.csv"
 Part1,Limitations,notebook Limitations markdown cell
-Part2,Physical PPI edges (primary FDR + exploratory + high-confidence),"results/network/string_edges_primary.tsv, results/network/string_edges.tsv, results/network/string_edges_hiconf700.tsv"
+Part2,Physical PPI edges (primary FDR + relaxed sensitivity + high-confidence),"results/network/string_edges_primary.tsv, results/network/string_edges.tsv, results/network/string_edges_hiconf700.tsv"
 Part2,PPI input genes / mapping funnel,"results/network/ppi_input_genes.csv, notebook network cell"
 Part2,Node centralities and disease module,results/network/centrality.csv
-Part2,Community detection (Louvain / Leiden),results/network/communities.csv
+Part2,Community detection (Louvain),"results/network/communities.csv, results/network/ppi_communities.png"
 Part2,Community vs Part-1 enrichment,notebook community-enrichment cell
-Part2,Curated drug-target table,results/network/drug_targets_documented.csv
 Part2,Drug-disease proximity (fixed interactome),results/network/drug_proximity.csv
 Part2,Disease-drug overlap,results/network/disease_drug_overlap.csv
 Part2,Drug-target to community mapping,results/network/drug_target_communities.csv
-Part2,Drug-target shortest-path network,results/network/drug_target_paths.graphml
+Part2,Extended drug-target path network,results/network/drug_target_paths.graphml
 Part2,Cytoscape node attribute table,results/network/node_info.tsv
-Part2,Exploratory PPI network for Cytoscape (relaxed threshold),results/network/ppi_network.graphml
+Part2,Relaxed sensitivity PPI network for Cytoscape,results/network/ppi_network.graphml
 Repro,Environment / kernel,"requirements.txt, notebook reproducibility cell"
 Repro,Pipeline state marker,results/pipeline_state.json
+Part1,Up-/down-regulated DEG exports,"results/dea/DEGs_upregulated.csv, results/dea/DEGs_downregulated.csv"
+Part1,Sex-stratified DEA (Female/Male: table/top20/volcano/nominal up-down),results/dea/sex_stratified/
+Part2,Primary DEG PPI (biotype-aware; incl. isolates),results/network/ppi_primary_network.graphml
+Part2,Primary centrality / communities,"results/network/centrality_primary.csv, results/network/communities_primary.csv"
+Part2,STRING confidence sensitivity (score>=400 vs >=700),results/network/string_confidence_sensitivity.csv
+Part2,DrugBank drug-target table,results/network/drug_targets_drugbank.csv

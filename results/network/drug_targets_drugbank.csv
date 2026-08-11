@@ -1,0 +1,6 @@
+drug_name,drugbank_id,target_name,gene_symbol
+Betaferon,DB00068,Interferon alpha/beta receptor 1,IFNAR1
+Betaferon,DB00068,Interferon alpha/beta receptor 2,IFNAR2
+Tecfidera,DB08908,Kelch-like ECH-associated protein 1,KEAP1
+Tecfidera,DB08908,Transcription factor p65 (NF-kappa-B p65),RELA
+Ocrevus,DB11988,B-lymphocyte antigen CD20,MS4A1

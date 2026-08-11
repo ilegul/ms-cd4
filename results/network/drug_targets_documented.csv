@@ -1,8 +1,0 @@
-drug,active_ingredient,gene_target,drugbank_drug_id,protein_role,action,directness,evidence_source,accessed
-Betaferon,interferon beta-1b,IFNAR1,DB00068,type-I interferon receptor subunit,agonist,direct,DrugBank,2026-07
-Betaferon,interferon beta-1b,IFNAR2,DB00068,type-I interferon receptor subunit,agonist,direct,DrugBank,2026-07
-Tecfidera,dimethyl fumarate,KEAP1,DB08908,"KEAP1, an E3-ligase substrate adaptor and NRF2 regulator",covalent modifier,direct (literature),literature,2026-07
-Tecfidera,dimethyl fumarate,HCAR2,DB08908,hydroxycarboxylic-acid receptor 2,agonist,direct,DrugBank,2026-07
-Tecfidera,dimethyl fumarate,NFE2L2,DB08908,"NRF2 transcription factor (downstream, activated indirectly via KEAP1)",indirect activation,downstream mediator,literature,2026-07
-Tecfidera,dimethyl fumarate,GAPDH,DB08908,glyceraldehyde-3-phosphate dehydrogenase,covalent modifier,literature-supported,literature,2026-07
-Ocrevus,ocrelizumab,MS4A1,DB11988,CD20 B-cell antigen,antibody (depleting),direct,DrugBank,2026-07
