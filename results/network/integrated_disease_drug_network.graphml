@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="role" attr.type="string"/>
+<graph edgedefault="undirected"><node id="ADGRE1">
+  <data key="d0">disease</data>
+</node>
+<node id="APOBEC3G">
+  <data key="d0">disease</data>
+</node>
+<node id="ASCL2">
+  <data key="d0">disease</data>
+</node>
+<node id="CACHD1">
+  <data key="d0">disease</data>
+</node>
+<node id="CD300A">
+  <data key="d0">disease</data>
+</node>
+<node id="CD320">
+  <data key="d0">disease</data>
+</node>
+<node id="CSKMT">
+  <data key="d0">disease</data>
+</node>
+<node id="DSC1">
+  <data key="d0">disease</data>
+</node>
+<node id="EDARADD">
+  <data key="d0">disease</data>
+</node>
+<node id="EFHD2">
+  <data key="d0">disease</data>
+</node>
+<node id="FGR">
+  <data key="d0">disease</data>
+</node>
+<node id="GPR141">
+  <data key="d0">disease</data>
+</node>
+<node id="GZMB">
+  <data key="d0">disease</data>
+</node>
+<node id="H2AC12">
+  <data key="d0">disease</data>
+</node>
+<node id="H2AC13">
+  <data key="d0">disease</data>
+</node>
+<node id="H2AC18">
+  <data key="d0">disease</data>
+</node>
+<node id="H2BC17">
+  <data key="d0">disease</data>
+</node>
+<node id="H2BC5">
+  <data key="d0">disease</data>
+</node>
+<node id="IFNAR1">
+  <data key="d0">drug_target</data>
+</node>
+<node id="IFNAR2">
+  <data key="d0">drug_target</data>
+</node>
+<node id="KEAP1">
+  <data key="d0">drug_target</data>
+</node>
+<node id="LAPTM4B">
+  <data key="d0">disease</data>
+</node>
+<node id="LZTS1">
+  <data key="d0">disease</data>
+</node>
+<node id="MS4A1">
+  <data key="d0">drug_target</data>
+</node>
+<node id="PALLD">
+  <data key="d0">disease</data>
+</node>
+<node id="PTPN7">
+  <data key="d0">disease</data>
+</node>
+<node id="RALGPS2">
+  <data key="d0">disease</data>
+</node>
+<node id="RELA">
+  <data key="d0">drug_target</data>
+</node>
+<node id="RGS3">
+  <data key="d0">disease</data>
+</node>
+<node id="STAP1">
+  <data key="d0">disease</data>
+</node>
+<node id="TNFSF9">
+  <data key="d0">disease</data>
+</node>
+<node id="U2AF1L5">
+  <data key="d0">disease</data>
+</node>
+<node id="ZC3H12B">
+  <data key="d0">disease</data>
+</node>
+<node id="ZFP57">
+  <data key="d0">disease</data>
+</node>
+<node id="ZNF135">
+  <data key="d0">disease</data>
+</node>
+<node id="ZNF160">
+  <data key="d0">disease</data>
+</node>
+<edge source="H2AC12" target="H2BC5"/>
+<edge source="H2AC12" target="H2AC13"/>
+<edge source="H2AC12" target="H2AC18"/>
+<edge source="H2AC12" target="H2BC17"/>
+<edge source="H2AC13" target="H2BC5"/>
+<edge source="H2AC13" target="H2BC17"/>
+<edge source="H2AC13" target="H2AC18"/>
+<edge source="H2AC18" target="H2BC5"/>
+<edge source="H2AC18" target="H2BC17"/>
+<edge source="H2BC17" target="H2BC5"/>
+<edge source="IFNAR1" target="IFNAR2"/>
+<edge source="KEAP1" target="RELA"/>
+</graph></graphml>

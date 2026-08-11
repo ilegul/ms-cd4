@@ -1,0 +1,6 @@
+drug,target,role,distance_to_disease_module,nearest_disease_gene
+Betaferon,IFNAR1,drug_target,disconnected,
+Betaferon,IFNAR2,drug_target,disconnected,
+Tecfidera,KEAP1,drug_target,disconnected,
+Tecfidera,RELA,drug_target,disconnected,
+Ocrevus,MS4A1,drug_target,disconnected,

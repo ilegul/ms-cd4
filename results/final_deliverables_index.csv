@@ -22,6 +22,7 @@ Part2,PPI input genes / mapping funnel,"results/network/ppi_input_genes.csv, not
 Part2,Node centralities and disease module,results/network/centrality.csv
 Part2,Community detection (Louvain),"results/network/communities.csv, results/network/ppi_communities.png"
 Part2,Community vs Part-1 enrichment,notebook community-enrichment cell
+Part2,Integrated disease + drug-target network (neighbors-selection distance),"results/network/integrated_disease_drug_network.graphml, results/network/drug_target_neighbors_distance.csv"
 Part2,Drug-disease proximity (fixed interactome),results/network/drug_proximity.csv
 Part2,Disease-drug overlap,results/network/disease_drug_overlap.csv
 Part2,Drug-target to community mapping,results/network/drug_target_communities.csv
