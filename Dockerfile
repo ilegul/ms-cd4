@@ -1,5 +1,5 @@
 # CLI toolchain for the CD4/MS RNA-seq pipeline (salmon, fastp, MultiQC).
-# The scripts in scripts/ run these tools inside this image so the exact tool
+# The notebook runs these tools inside this image so the exact tool
 # versions are reproducible on any machine with Docker, without a local install.
 #
 # Build once from the repository root:

@@ -24,13 +24,6 @@ CD4+ T cells.
 MS_CD4/
 ├── notebooks/
 │   └── BSB_CD4_MS_assignment.ipynb   # main analysis notebook (run this)
-├── scripts/                          # command-line steps (Docker, resumable)
-│   ├── 00_setup.sh                   # environment / image check
-│   ├── 01_qc_trim.sh                 # fastp QC + trimming, MultiQC
-│   ├── 02_index.sh                   # Salmon transcriptome index
-│   ├── 03_quant.sh                   # Salmon quantification (gene level)
-│   ├── run_pipeline.sh               # runs 00_setup → 01_qc_trim → 02_index → 03_quant
-│   └── lib_common.sh / state.py      # shared helpers + progress tracking
 ├── data/
 │   ├── metadata/                     # sample sheet + GEO metadata (small, tracked)
 │   │   ├── samples.csv               # the 8 selected samples (SRR / GSM / condition / sex / age)
@@ -80,11 +73,8 @@ python -m ipykernel install --user --name bsb --display-name "Python (bsb)"
 docker build -t mscd4-bioinfo:latest .
 ```
 
-**3. Verify the environment**
-
-```bash
-bash scripts/00_setup.sh
-```
+The notebook's first cells resolve all project paths and check that the Docker image and inputs are
+available, so no separate setup script is needed.
 
 ---
 
@@ -133,19 +123,18 @@ jupyter lab   # then open notebooks/BSB_CD4_MS_assignment.ipynb
    ```
 
 2. **Provide the reference** (GENCODE v28, human) in `data/reference/` **before** running the
-   pipeline, because `02_index.sh` needs the transcript FASTA and `03_quant.sh` needs the
-   transcript-to-gene map. The small maps (`tx2gene.tsv`, `gene_annotation.tsv`) are tracked in
+   notebook's quantification cells, because the Salmon index build needs the transcript FASTA and the
+   quantification needs the transcript-to-gene map. The small maps (`tx2gene.tsv`, `gene_annotation.tsv`) are tracked in
    the repository; download the FASTA/GTF (or run the notebook's reference cell once, which
    fetches them) from
    [https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28](https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28/)
    (`gencode.v28.transcripts.fa.gz` and `gencode.v28.annotation.gtf.gz`).
 
-3. **Run the pipeline** (each step is idempotent and can be safely resumed):
-   ```bash
-   bash scripts/run_pipeline.sh      # env check → QC/trim → index → quantification
-   ```
+3. **Run the notebook's preprocessing and quantification cells** (fastp QC/trim → Salmon index →
+   Salmon quantification). They execute the command-line tools directly through Docker, one sample at
+   a time, and each step is idempotent and can be safely resumed.
 
-4. **Open the notebook** and run all cells for DEA, enrichment and the network analysis.
+4. **Run the remaining notebook cells** for DEA, enrichment and the network analysis.
 
 > The pipeline processes one sample at a time and caps threads to keep memory usage low, so
 > it runs comfortably on a 16 GB laptop. Quantification of all 8 samples takes several hours.
