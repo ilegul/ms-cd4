@@ -44,5 +44,5 @@ data/_excluded_*/
 # STRING precomputed interactome (downloaded on demand by the notebook)
 data/reference/9606.protein.*.txt.gz
 
-# Local working notes (kept locally, not part of the deliverable)
+# Local-only files (not part of the deliverable)
 _local_notes/
