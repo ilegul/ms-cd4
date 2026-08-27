@@ -9,8 +9,8 @@ organised in two parts:
 - **Part 1 — RNA-seq pipeline:** quality control → transcript/gene quantification →
   differential expression analysis (DEA) → functional enrichment → comparison with the
   reference paper.
-- **Part 2 — Systems biology:** protein–protein interaction (PPI) network → node
-  centrality and disease module → community detection → drug–disease network proximity.
+- **Part 2 — Systems biology:** STRING physical PPI network → betweenness centrality and
+  the operational disease module → Louvain community detection → drug–disease network proximity.
 
 The analysis compares **4 treatment-naive Multiple Sclerosis (MS)** patients against
 **4 healthy controls (HC)**, balanced by sex (2 F + 2 M per group) and age-matched, all
