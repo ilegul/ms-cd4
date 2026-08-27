@@ -3,17 +3,20 @@
 <graph edgedefault="undirected"><node id="IFNAR1">
   <data key="d0">drug_target</data>
 </node>
-<node id="STAT3">
+<node id="PIK3R1">
   <data key="d0">connector</data>
 </node>
-<node id="PLCG2">
+<node id="FCGR3A">
   <data key="d0">disease_module</data>
 </node>
 <node id="IFNAR2">
   <data key="d0">drug_target</data>
 </node>
-<node id="GRAP2">
+<node id="SOCS3">
   <data key="d0">connector</data>
+</node>
+<node id="LYN">
+  <data key="d0">disease_module</data>
 </node>
 <node id="KEAP1">
   <data key="d0">drug_target</data>
@@ -24,26 +27,22 @@
 <node id="RELA">
   <data key="d0">drug_target</data>
 </node>
-<node id="CCL2">
-  <data key="d0">connector</data>
-</node>
-<node id="CXCR1">
+<node id="TNF">
   <data key="d0">disease_module</data>
 </node>
 <node id="MS4A1">
   <data key="d0">drug_target</data>
 </node>
-<node id="FCER1G">
+<node id="CD19">
   <data key="d0">connector</data>
 </node>
-<edge source="IFNAR1" target="STAT3"/>
-<edge source="STAT3" target="PLCG2"/>
-<edge source="PLCG2" target="GRAP2"/>
-<edge source="PLCG2" target="EGFR"/>
-<edge source="PLCG2" target="FCER1G"/>
-<edge source="IFNAR2" target="GRAP2"/>
+<edge source="IFNAR1" target="PIK3R1"/>
+<edge source="PIK3R1" target="FCGR3A"/>
+<edge source="FCGR3A" target="EGFR"/>
+<edge source="FCGR3A" target="CD19"/>
+<edge source="IFNAR2" target="SOCS3"/>
+<edge source="SOCS3" target="LYN"/>
 <edge source="KEAP1" target="EGFR"/>
-<edge source="RELA" target="CCL2"/>
-<edge source="CCL2" target="CXCR1"/>
-<edge source="MS4A1" target="FCER1G"/>
+<edge source="RELA" target="TNF"/>
+<edge source="MS4A1" target="CD19"/>
 </graph></graphml>

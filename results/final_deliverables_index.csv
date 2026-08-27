@@ -17,7 +17,7 @@ Part1,Enrichment plots,"results/enrichment/gsea_barplot.png, results/enrichment/
 Part1,Biological interpretation,notebook Deliverable 4
 Part1,Comparison with Kim et al.,"notebook Task 5, results/dea/neddylation_genes.csv"
 Part1,Limitations,notebook Limitations markdown cell
-Part2,Physical PPI edges (primary FDR + relaxed sensitivity + high-confidence),"results/network/string_edges_primary.tsv, results/network/string_edges.tsv, results/network/string_edges_hiconf700.tsv"
+Part2,Physical PPI edges (strict FDR + relaxed + high-confidence),"results/network/string_edges_primary.tsv, results/network/string_edges.tsv, results/network/string_edges_hiconf700.tsv"
 Part2,PPI input genes / mapping funnel,"results/network/ppi_input_genes.csv, notebook network cell"
 Part2,Node centralities and disease module,results/network/centrality.csv
 Part2,Community detection (Louvain),"results/network/communities.csv, results/network/ppi_communities.png"
@@ -26,14 +26,14 @@ Part2,Integrated disease + drug-target network (neighbors-selection distance),"r
 Part2,Drug-disease proximity (fixed interactome),results/network/drug_proximity.csv
 Part2,Disease-drug overlap,results/network/disease_drug_overlap.csv
 Part2,Drug-target to community mapping,results/network/drug_target_communities.csv
-Part2,Extended drug-target path network,results/network/drug_target_paths.graphml
+Part2,Exploratory shortest-path context network,results/network/drug_target_paths.graphml
 Part2,Cytoscape node attribute table,results/network/node_info.tsv
-Part2,Relaxed sensitivity PPI network for Cytoscape,results/network/ppi_network.graphml
+Part2,Relaxed PPI network for Cytoscape,results/network/ppi_network.graphml
 Repro,Environment / kernel,"requirements.txt, notebook reproducibility cell"
 Repro,Pipeline state marker,results/pipeline_state.json
 Part1,Up-/down-regulated DEG exports,"results/dea/DEGs_upregulated.csv, results/dea/DEGs_downregulated.csv"
-Part2,Primary DEG PPI (biotype-aware; incl. isolates),results/network/ppi_primary_network.graphml
-Part2,Primary centrality / communities,"results/network/centrality_primary.csv, results/network/communities_primary.csv"
+Part2,Strict FDR DEG PPI (biotype-aware; incl. isolates),results/network/ppi_primary_network.graphml
+Part2,Strict FDR centrality / communities,"results/network/centrality_primary.csv, results/network/communities_primary.csv"
 Part2,STRING confidence sensitivity (score>=400 vs >=700),results/network/string_confidence_sensitivity.csv
 Part2,DrugBank drug-target table,results/network/drug_targets_drugbank.csv
 Part2,PPI construction sensitivity (FDR<0.10 vs primary FDR<0.05),results/network/ppi_fdr_threshold_sensitivity.csv

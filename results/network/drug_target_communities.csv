@@ -1,6 +1,6 @@
 drug,target,nearest_disease_node,distance,disease_community,community_top_genes
-Betaferon,IFNAR1,PLCG2,2,2,"PLCG2, LYN, KLRK1"
-Betaferon,IFNAR2,PLCG2,2,2,"PLCG2, LYN, KLRK1"
-Tecfidera,KEAP1,PLCG2,2,2,"PLCG2, LYN, KLRK1"
-Tecfidera,RELA,CXCR1,2,5,"CXCR1, CXCR2, CX3CR1"
-Ocrevus,MS4A1,PLCG2,2,2,"PLCG2, LYN, KLRK1"
+Betaferon,IFNAR1,FCGR3A,2,4,"FCGR3A, NCAM1, LILRA4"
+Betaferon,IFNAR2,LYN,2,2,"LYN, PLCG2, KLRK1"
+Tecfidera,KEAP1,FCGR3A,2,4,"FCGR3A, NCAM1, LILRA4"
+Tecfidera,RELA,TNF,1,0,"FASLG, TNF, GZMB"
+Ocrevus,MS4A1,FCGR3A,2,4,"FCGR3A, NCAM1, LILRA4"
