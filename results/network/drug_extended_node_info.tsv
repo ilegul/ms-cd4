@@ -1,0 +1,45 @@
+gene	role	is_disease_module	drug_target_for
+ADRA1A	topology_ppi	False	
+CADM1	topology_ppi	False	
+CCL3L1	topology_ppi	False	
+CCL4	topology_ppi	False	
+CD151	topology_ppi	False	
+CD244	topology_ppi	False	
+CX3CR1	disease_module	True	
+CXCR1	disease_module	True	
+CXCR2	disease_module	True	
+FASLG	disease_module	True	
+FCER1A	topology_ppi	False	
+FCGR3A	disease_module	True	
+FGR	topology_ppi	False	
+GAB3	topology_ppi	False	
+GNAI1	disease_module	True	
+GNLY	topology_ppi	False	
+GZMB	topology_ppi	False	
+ITGA2	disease_module	True	
+ITGAM	topology_ppi	False	
+KCNQ2	topology_ppi	False	
+KLRC2	topology_ppi	False	
+KLRK1	topology_ppi	False	
+LAMB3	disease_module	True	
+LILRA4	disease_module	True	
+LYN	disease_module	True	
+MATK	disease_module	True	
+NCAM1	disease_module	True	
+NTRK1	topology_ppi	False	
+PLCG2	disease_module	True	
+RGS9	topology_ppi	False	
+SH2D1B	topology_ppi	False	
+SKAP2	topology_ppi	False	
+SPTBN5	disease_module	True	
+TNF	disease_module	True	
+TNFRSF12A	topology_ppi	False	
+TNFSF11	topology_ppi	False	
+TNFSF9	topology_ppi	False	
+XCL1	topology_ppi	False	
+XCL2	topology_ppi	False	
+IFNAR1	drug_target	False	Betaferon
+IFNAR2	drug_target	False	Betaferon
+MS4A1	drug_target	False	Ocrevus
+KEAP1	drug_target	False	Tecfidera
+RELA	drug_target	False	Tecfidera

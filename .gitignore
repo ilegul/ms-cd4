@@ -1,6 +1,4 @@
-# ---------------------------------------------------------------------------
 # Large data — download/regenerate locally, never commit (see README)
-# ---------------------------------------------------------------------------
 data/raw_fastq/
 data/fastq_trimmed/
 
@@ -15,9 +13,7 @@ data/salmon_index_v112_utf8/
 data/salmon_quants/
 data/salmon_quants_rawreads_archive/
 
-# ---------------------------------------------------------------------------
 # Environment, caches, logs
-# ---------------------------------------------------------------------------
 .venv/
 __pycache__/
 *.py[cod]
@@ -25,16 +21,13 @@ __pycache__/
 logs/
 .pytest_cache/
 
-# ---------------------------------------------------------------------------
-# Written report (kept locally, not tracked)
-# ---------------------------------------------------------------------------
+# Documentation
 *.docx
 
-# ---------------------------------------------------------------------------
 # OS / editor cruft
-# ---------------------------------------------------------------------------
 .DS_Store
 Thumbs.db
+
 # Word/Office temporary lock files
 ~$*
 
@@ -44,5 +37,5 @@ data/_excluded_*/
 # STRING precomputed interactome (downloaded on demand by the notebook)
 data/reference/9606.protein.*.txt.gz
 
-# Local-only files (not part of the deliverable)
+# Local-only files 
 _local_notes/

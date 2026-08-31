@@ -1,4 +1,4 @@
-drug,target,in_relaxed_network,community,is_disease_module
+drug,target,in_topology_ppi,community,is_disease_module
 Betaferon,IFNAR1,False,,False
 Betaferon,IFNAR2,False,,False
 Tecfidera,KEAP1,False,,False

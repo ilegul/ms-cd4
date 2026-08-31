@@ -1,16 +1,16 @@
 # CD4+ T-cell Transcriptomics in Treatment-Naive Multiple Sclerosis
 
-Bioinformatics & Systems Biology — exam project.
+Bioinformatics & Systems Biology - exam project.
 
 This repository reproduces, at small scale, the CD4+ T-cell arm of the study behind
 **GEO GSE137143** and then performs a network-medicine analysis on the results. It is
 organised in two parts:
 
 - **Part 1 — RNA-seq pipeline:** quality control → transcript/gene quantification →
-  differential expression analysis (DEA) → functional enrichment → comparison with the
-  reference paper.
-- **Part 2 — Systems biology:** STRING physical PPI network → betweenness centrality and
-  the operational disease module → Louvain community detection → drug–disease network proximity.
+  differential expression analysis (DEA) → functional enrichment.
+- **Part 2 — Systems biology:** STRING physical PPI network → betweenness centrality and the
+  betweenness-derived disease module → Louvain community detection → drug-extended network and
+  drug–disease proximity.
 
 The analysis compares **4 treatment-naive Multiple Sclerosis (MS)** patients against
 **4 healthy controls (HC)**, balanced by sex (2 F + 2 M per group) and age-matched, all
@@ -49,10 +49,10 @@ MS_CD4/
 
 ## Requirements
 
-- **Python 3.10** (for the analysis notebook)
-- **Docker** (runs the command-line tools — salmon 1.12.0, fastp 0.20.1, MultiQC 1.25.2 —
+- **Python 3.10**
+- **Docker** (runs the command-line tools - salmon 1.12.0, fastp 0.20.1, MultiQC 1.25.2 -
   so no local bioinformatics install is needed)
-- ~16 GB RAM is sufficient; the pipeline is designed to run on a laptop.
+
 
 ---
 
@@ -84,7 +84,7 @@ available, so no separate setup script is needed.
 
 The differential expression, enrichment and network analyses can be reproduced directly from
 the count matrix and result tables included under `results/` and `data/`. Open the notebook,
-select the **Python (bsb)** kernel, and run all cells: these sections regenerate in a few
+select the **Python (bsb)** kernel and run all cells: these sections regenerate in a few
 minutes. The heavy upstream steps (FASTQ preprocessing and Salmon quantification) are **not**
 re-run here — they require the large untracked input files (see *Data* below); their
 quantification cells simply report the samples they would process. Use *Option B* to rebuild
@@ -130,14 +130,13 @@ jupyter lab   # then open notebooks/BSB_CD4_MS_assignment.ipynb
    [https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28](https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28/)
    (`gencode.v28.transcripts.fa.gz` and `gencode.v28.annotation.gtf.gz`).
 
-3. **Run the notebook's preprocessing and quantification cells** (fastp QC/trim → Salmon index →
+3. **Run the notebook's preprocessing and quantification cells** (FastQC → fastp QC/trim → Salmon index →
    Salmon quantification). They execute the command-line tools directly through Docker, one sample at
    a time, and each step is idempotent and can be safely resumed.
 
 4. **Run the remaining notebook cells** for DEA, enrichment and the network analysis.
 
-> The pipeline processes one sample at a time and caps threads to keep memory usage low, so
-> it runs comfortably on a 16 GB laptop. Quantification of all 8 samples takes several hours.
+> The pipeline processes one sample at a time.
 
 ---
 
@@ -146,7 +145,7 @@ jupyter lab   # then open notebooks/BSB_CD4_MS_assignment.ipynb
 The raw FASTQ files, the reference FASTA/GTF, the Salmon index and the per-sample
 quantifications are **not committed** (they are large and can be regenerated). Only the
 sample metadata and the final results/figures are tracked. Follow *Option B* above to
-recreate the raw and intermediate data, or *Option A* to work directly from the included
+recreate the raw and intermediate data or *Option A* to work directly from the included
 results.
 
 Random seeds are fixed (42) and all figures/tables are written under `results/` for

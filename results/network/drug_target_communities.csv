@@ -1,4 +1,4 @@
-drug,target,nearest_disease_node,distance,disease_community,community_top_genes
+drug,target,nearest_disease_node,distance_to_module,disease_community,community_top_genes
 Betaferon,IFNAR1,FCGR3A,2,4,"FCGR3A, NCAM1, LILRA4"
 Betaferon,IFNAR2,LYN,2,2,"LYN, PLCG2, KLRK1"
 Tecfidera,KEAP1,FCGR3A,2,4,"FCGR3A, NCAM1, LILRA4"

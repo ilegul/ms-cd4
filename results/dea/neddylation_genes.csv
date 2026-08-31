@@ -1,11 +1,11 @@
-gene,baseMean,log2FC,pvalue,padj,my_direction,paper_direction
+gene,baseMean,log2FC,pvalue,padj,notebook_direction,paper_report
 NAE1,1162.8,0.25,0.0054,0.39,up,up
 UBA3,1495.0,0.11,0.35,1,up,-
-UBE2F,1107.4,0.12,0.4,1,up,up
+UBE2F,1107.4,0.12,0.4,1,up,dysregulated
 UBE2M,775.0,-0.06,0.61,1,down,-
 NEDD8,980.8,-0.07,0.51,1,down,-
 CUL1,2674.6,0.05,0.58,1,up,-
 RBX1,716.2,0.02,0.84,1,up,-
-VHL,3025.5,0.16,0.17,1,up,up
-AKIP1,340.2,-0.14,0.43,1,down,up
-SMURF1,1269.3,-0.2,0.076,0.94,down,up
+VHL,3025.5,0.16,0.17,1,up,dysregulated
+AKIP1,340.2,-0.14,0.43,1,down,dysregulated
+SMURF1,1269.3,-0.2,0.076,0.94,down,dysregulated

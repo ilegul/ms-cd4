@@ -7,7 +7,7 @@
   <data key="d0">connector</data>
 </node>
 <node id="FCGR3A">
-  <data key="d0">disease_module</data>
+  <data key="d0">betweenness_disease_module</data>
 </node>
 <node id="IFNAR2">
   <data key="d0">drug_target</data>
@@ -16,7 +16,7 @@
   <data key="d0">connector</data>
 </node>
 <node id="LYN">
-  <data key="d0">disease_module</data>
+  <data key="d0">betweenness_disease_module</data>
 </node>
 <node id="KEAP1">
   <data key="d0">drug_target</data>
@@ -28,7 +28,7 @@
   <data key="d0">drug_target</data>
 </node>
 <node id="TNF">
-  <data key="d0">disease_module</data>
+  <data key="d0">betweenness_disease_module</data>
 </node>
 <node id="MS4A1">
   <data key="d0">drug_target</data>

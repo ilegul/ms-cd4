@@ -1,6 +1,6 @@
-drug,target,role,distance_to_FDR_disease_set,nearest_disease_gene
-Betaferon,IFNAR1,drug_target,disconnected,
-Betaferon,IFNAR2,drug_target,disconnected,
-Tecfidera,KEAP1,drug_target,disconnected,
-Tecfidera,RELA,drug_target,disconnected,
-Ocrevus,MS4A1,drug_target,disconnected,
+drug,target,attached_to,distance_to_module,nearest_disease_node,status
+Betaferon,IFNAR1,IFNAR2,,,no path to module
+Betaferon,IFNAR2,IFNAR1,,,no path to module
+Tecfidera,KEAP1,RELA,2.0,TNF,reached
+Tecfidera,RELA,KEAP1;TNF,1.0,TNF,reached
+Ocrevus,MS4A1,FCER1A,2.0,LILRA4,reached

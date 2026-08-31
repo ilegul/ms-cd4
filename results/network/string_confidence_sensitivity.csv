@@ -1,3 +1,3 @@
-string_score,nodes,edges,components,LCC
+string_score,interacting_nodes,edges,components,LCC_nodes
 >=400,95,198,16,39
 >=700,60,104,16,20

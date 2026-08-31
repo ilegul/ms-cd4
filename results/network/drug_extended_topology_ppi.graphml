@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d0" for="node" attr.name="role" attr.type="string"/>
+<graph edgedefault="undirected"><node id="ADRA1A">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="CADM1">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="CCL3L1">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="CCL4">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="CD151">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="CD244">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="CX3CR1">
+  <data key="d0">disease_module</data>
+</node>
+<node id="CXCR1">
+  <data key="d0">disease_module</data>
+</node>
+<node id="CXCR2">
+  <data key="d0">disease_module</data>
+</node>
+<node id="FASLG">
+  <data key="d0">disease_module</data>
+</node>
+<node id="FCER1A">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="FCGR3A">
+  <data key="d0">disease_module</data>
+</node>
+<node id="FGR">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="GAB3">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="GNAI1">
+  <data key="d0">disease_module</data>
+</node>
+<node id="GNLY">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="GZMB">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="ITGA2">
+  <data key="d0">disease_module</data>
+</node>
+<node id="ITGAM">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="KCNQ2">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="KLRC2">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="KLRK1">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="LAMB3">
+  <data key="d0">disease_module</data>
+</node>
+<node id="LILRA4">
+  <data key="d0">disease_module</data>
+</node>
+<node id="LYN">
+  <data key="d0">disease_module</data>
+</node>
+<node id="MATK">
+  <data key="d0">disease_module</data>
+</node>
+<node id="NCAM1">
+  <data key="d0">disease_module</data>
+</node>
+<node id="NTRK1">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="PLCG2">
+  <data key="d0">disease_module</data>
+</node>
+<node id="RGS9">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="SH2D1B">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="SKAP2">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="SPTBN5">
+  <data key="d0">disease_module</data>
+</node>
+<node id="TNF">
+  <data key="d0">disease_module</data>
+</node>
+<node id="TNFRSF12A">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="TNFSF11">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="TNFSF9">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="XCL1">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="XCL2">
+  <data key="d0">topology_ppi</data>
+</node>
+<node id="IFNAR1">
+  <data key="d0">drug_target</data>
+</node>
+<node id="IFNAR2">
+  <data key="d0">drug_target</data>
+</node>
+<node id="MS4A1">
+  <data key="d0">drug_target</data>
+</node>
+<node id="KEAP1">
+  <data key="d0">drug_target</data>
+</node>
+<node id="RELA">
+  <data key="d0">drug_target</data>
+</node>
+<edge source="ADRA1A" target="CXCR2">
+  <data key="d1">0.442</data>
+</edge>
+<edge source="CADM1" target="NCAM1">
+  <data key="d1">0.514</data>
+</edge>
+<edge source="CCL3L1" target="CX3CR1">
+  <data key="d1">0.754</data>
+</edge>
+<edge source="CCL3L1" target="CXCR1">
+  <data key="d1">0.762</data>
+</edge>
+<edge source="CCL3L1" target="CXCR2">
+  <data key="d1">0.762</data>
+</edge>
+<edge source="CCL4" target="CX3CR1">
+  <data key="d1">0.651</data>
+</edge>
+<edge source="CCL4" target="CXCR1">
+  <data key="d1">0.727</data>
+</edge>
+<edge source="CCL4" target="CXCR2">
+  <data key="d1">0.945</data>
+</edge>
+<edge source="CD151" target="LAMB3">
+  <data key="d1">0.499</data>
+</edge>
+<edge source="CD244" target="PLCG2">
+  <data key="d1">0.405</data>
+</edge>
+<edge source="CD244" target="SH2D1B">
+  <data key="d1">0.683</data>
+</edge>
+<edge source="CX3CR1" target="CXCR1">
+  <data key="d1">0.479</data>
+</edge>
+<edge source="CX3CR1" target="GNAI1">
+  <data key="d1">0.9</data>
+</edge>
+<edge source="CX3CR1" target="XCL1">
+  <data key="d1">0.77</data>
+</edge>
+<edge source="CX3CR1" target="XCL2">
+  <data key="d1">0.65</data>
+</edge>
+<edge source="CXCR1" target="CXCR2">
+  <data key="d1">0.997</data>
+</edge>
+<edge source="CXCR1" target="FCGR3A">
+  <data key="d1">0.493</data>
+</edge>
+<edge source="CXCR1" target="XCL1">
+  <data key="d1">0.663</data>
+</edge>
+<edge source="CXCR1" target="XCL2">
+  <data key="d1">0.65</data>
+</edge>
+<edge source="CXCR2" target="GNAI1">
+  <data key="d1">0.9</data>
+</edge>
+<edge source="CXCR2" target="XCL1">
+  <data key="d1">0.65</data>
+</edge>
+<edge source="CXCR2" target="XCL2">
+  <data key="d1">0.65</data>
+</edge>
+<edge source="FASLG" target="GNLY">
+  <data key="d1">0.659</data>
+</edge>
+<edge source="FASLG" target="LYN">
+  <data key="d1">0.42</data>
+</edge>
+<edge source="FASLG" target="TNF">
+  <data key="d1">0.976</data>
+</edge>
+<edge source="FCER1A" target="LILRA4">
+  <data key="d1">0.447</data>
+</edge>
+<edge source="FCER1A" target="MS4A1">
+  <data key="d1">0.467</data>
+</edge>
+<edge source="FCGR3A" target="KLRK1">
+  <data key="d1">0.613</data>
+</edge>
+<edge source="FCGR3A" target="LILRA4">
+  <data key="d1">0.9</data>
+</edge>
+<edge source="FCGR3A" target="NCAM1">
+  <data key="d1">0.765</data>
+</edge>
+<edge source="FCGR3A" target="PLCG2">
+  <data key="d1">0.499</data>
+</edge>
+<edge source="FGR" target="LYN">
+  <data key="d1">0.542</data>
+</edge>
+<edge source="GAB3" target="LYN">
+  <data key="d1">0.716</data>
+</edge>
+<edge source="GAB3" target="PLCG2">
+  <data key="d1">0.499</data>
+</edge>
+<edge source="GNAI1" target="RGS9">
+  <data key="d1">0.598</data>
+</edge>
+<edge source="GNLY" target="GZMB">
+  <data key="d1">0.812</data>
+</edge>
+<edge source="GZMB" target="LYN">
+  <data key="d1">0.556</data>
+</edge>
+<edge source="ITGA2" target="ITGAM">
+  <data key="d1">0.54</data>
+</edge>
+<edge source="ITGA2" target="LAMB3">
+  <data key="d1">0.512</data>
+</edge>
+<edge source="ITGA2" target="LYN">
+  <data key="d1">0.673</data>
+</edge>
+<edge source="KCNQ2" target="SPTBN5">
+  <data key="d1">0.499</data>
+</edge>
+<edge source="KLRC2" target="KLRK1">
+  <data key="d1">0.719</data>
+</edge>
+<edge source="KLRC2" target="PLCG2">
+  <data key="d1">0.499</data>
+</edge>
+<edge source="KLRK1" target="PLCG2">
+  <data key="d1">0.499</data>
+</edge>
+<edge source="LYN" target="MATK">
+  <data key="d1">0.509</data>
+</edge>
+<edge source="LYN" target="PLCG2">
+  <data key="d1">0.91</data>
+</edge>
+<edge source="LYN" target="SKAP2">
+  <data key="d1">0.457</data>
+</edge>
+<edge source="MATK" target="NTRK1">
+  <data key="d1">0.926</data>
+</edge>
+<edge source="NCAM1" target="SPTBN5">
+  <data key="d1">0.4</data>
+</edge>
+<edge source="NTRK1" target="TNF">
+  <data key="d1">0.41</data>
+</edge>
+<edge source="PLCG2" target="SH2D1B">
+  <data key="d1">0.405</data>
+</edge>
+<edge source="TNF" target="TNFRSF12A">
+  <data key="d1">0.519</data>
+</edge>
+<edge source="TNF" target="TNFSF11">
+  <data key="d1">0.724</data>
+</edge>
+<edge source="TNF" target="TNFSF9">
+  <data key="d1">0.578</data>
+</edge>
+<edge source="TNF" target="RELA">
+  <data key="d1">0.749</data>
+</edge>
+<edge source="TNFRSF12A" target="TNFSF11">
+  <data key="d1">0.499</data>
+</edge>
+<edge source="XCL1" target="XCL2">
+  <data key="d1">0.908</data>
+</edge>
+<edge source="IFNAR1" target="IFNAR2">
+  <data key="d1">0.999</data>
+</edge>
+<edge source="KEAP1" target="RELA">
+  <data key="d1">0.936</data>
+</edge>
+</graph></graphml>
